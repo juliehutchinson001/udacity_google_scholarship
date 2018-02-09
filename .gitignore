@@ -1,2 +1,9 @@
 */*.DS_Store
 *.DS_Store
+
+*/web-dev-blog/web-dev-blog.png
+web-dev-blog/web-dev-blog.png
+
+**/*.png
+*/*.png
+*.png
