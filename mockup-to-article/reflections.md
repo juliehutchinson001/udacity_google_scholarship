@@ -35,6 +35,13 @@ You've learned a lot about web development so far. I want you to take a moment t
 <p class="highlight module right"></p>
 ```
 
+6. The font-family property is used to change the font to Helvetica, Arial, or the default sans-serif font installed on the operating system.
+
+7. The font-size property is used to increase the size of the font to be larger 
+
+8. The text-transform and text-decoration properties are used to capitalize and underline the text.
+
+9. Color is used to change the color
 
 
 
