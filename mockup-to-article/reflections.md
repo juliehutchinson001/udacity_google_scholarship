@@ -19,10 +19,10 @@ You've learned a lot about web development so far. I want you to take a moment t
 
 > What has been difficult?
 
-  1. What CSS property is used to italicize text? font-style
-  2. What CSS property is used to underline text? text-decoration
-  3. What CSS property is used to uppercase text? text-transform
-  4. What CSS property is used to bold text? font-weight
+  1. What CSS property is used to __italicize__ text? font-style
+  2. What CSS property is used to __underline__ text? text-decoration
+  3. What CSS property is used to __uppercase__ text? text-transform
+  4. What CSS property is used to __bold__ text? font-weight
 
   5. Which HTML elements match the given CSS statement?
 ```
@@ -34,13 +34,14 @@ You've learned a lot about web development so far. I want you to take a moment t
 <p class="highlight module right"></p>
 ```
 
-6. The font-family property is used to change the font to Helvetica, Arial, or the default sans-serif font installed on the operating system.
+6. The `font-family` property is used to _change the font_ to Helvetica, Arial, or the default sans-serif font installed on the operating system.
 
-7. The font-size property is used to increase the size of the font to be larger 
+7. The `font-size` property is used to increase the _size of the font_ to be larger 
 
-8. The text-transform and text-decoration properties are used to capitalize and underline the text.
+8. The `text-transform` and `text-decoration` properties are used to _capitalize_ and _underline_ the text.
 
-9. Color is used to change the color
+9. Color is used to change the color.
+10. Every CSS statement is made up of a selector and a declaration block. The __selector__ tells the browser what HTML element we want to style and the __declaration block__ tells the browser what styles need to be applied to that HTML.
 
 
 
