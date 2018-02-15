@@ -10,8 +10,24 @@ Your response goes here!
 
 * What new skills have you learned?: What the DOCTYPE does to an html document
 
-* What has been easy? Solving the challenges so far
+* What has been easy? Understanding the challenges so far
 
-* What has been difficult? Nothing
+* What has been difficult?
+
+What CSS property is used to italicize text? font-style
+What CSS property is used to underline text? text-decoration
+What CSS property is used to uppercase text? text-transform
+What CSS property is used to bold text? font-weight
+
+Which HTML elements match the given CSS statement?
+    .right {
+       text-align: right;
+    }
+<div class="right"></div>
+<p class="highlight module right"></p>
+
+
+
+
 
 * How have you used the problem solving strategies from the first project to overcome challenges so far? Yes
