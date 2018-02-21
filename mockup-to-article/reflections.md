@@ -1,10 +1,3 @@
-You've learned a lot about web development so far. I want you to take a moment to write down your thoughts about web development here. Answer the following questions:
->- What new skills have you learned?
->- What has been difficult?
-
----
-
-> What new skills have you learned?: 
 >* Trees represent data that makeup websites: A parent branch `<ul>` has many children `<li></li>`.
 >* DOCTYPE: Describes the type of HTML. `<!DOCTYPE html>` helps the browser determine what type of HTML document it’s trying to parse and display.
 >* Browsers look for this doctype declaration to determine which rendering mode to use to render the site. Generally, newer sites follow standard HTML specifications. The current standard HTML specification is called HTML5.
@@ -16,9 +9,6 @@ You've learned a lot about web development so far. I want you to take a moment t
 >* CSS measurement units can be: _absolute-_ (100px/in/cm/mm) fixed units of measurement. _relative-_ (100%/em/vw -viewport width-/vh -viewport height-) units that are a comparison to another linked property.
 
 ---
-
-> What has been difficult?
-
   1. What CSS property is used to __italicize__ text? font-style
   2. What CSS property is used to __underline__ text? text-decoration
   3. What CSS property is used to __uppercase__ text? text-transform
@@ -43,6 +33,10 @@ You've learned a lot about web development so far. I want you to take a moment t
 9. Color is used to change the color.
 10. Every CSS statement is made up of a selector and a declaration block. The __selector__ tells the browser what HTML element we want to style and the __declaration block__ tells the browser what styles need to be applied to that HTML.
 
+---
+# MVC
+>* Controllers process incoming requests, handle user input and interactions, and execute appropriate application logic. 
+>* A controller class typically calls a separate view component to generate the HTML markup for the request.
 
 
 
