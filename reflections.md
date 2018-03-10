@@ -5,7 +5,7 @@
 >* `<body>` Describes the actual content of the site that users will see.
 >* To open the web development tools on a Mac: Command + Option + i
 >* apply `<style>` tag to apply css to a page.
->* appy `<script type="text/javascript">` tag to apply javascript to a page.
+>* apply `<script type="text/javascript">` tag to apply javascript to a page.
 >* CSS measurement units can be: _absolute-_ (100px/in/cm/mm) fixed units of measurement. _relative-_ (100%/em/vw -viewport width-/vh -viewport height-) units that are a comparison to another linked property.
 
 ---
@@ -26,18 +26,9 @@
 
 6. The `font-family` property is used to _change the font_ to Helvetica, Arial, or the default sans-serif font installed on the operating system.
 
-7. The `font-size` property is used to increase the _size of the font_ to be larger 
+7. The `font-size` property is used to increase the _size of the font_ to be larger
 
 8. The `text-transform` and `text-decoration` properties are used to _capitalize_ and _underline_ the text.
 
 9. Color is used to change the color.
 10. Every CSS statement is made up of a selector and a declaration block. The __selector__ tells the browser what HTML element we want to style and the __declaration block__ tells the browser what styles need to be applied to that HTML.
-
----
-# MVC
->* Controllers process incoming requests, handle user input and interactions, and execute appropriate application logic. 
->* A controller class typically calls a separate view component to generate the HTML markup for the request.
-
-
-
-
