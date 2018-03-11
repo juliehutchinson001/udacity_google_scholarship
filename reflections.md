@@ -15,6 +15,16 @@
 >* apply `<script type="text/javascript">` tag to apply javascript to a page.
 >* CSS measurement units can be: _absolute-_ (100px/in/cm/mm) fixed units of measurement. _relative-_ (100%/em/vw -viewport width-/vh -viewport height-) units that are a comparison to another linked property.
 
+## HTML5 Semantic Elements    
+>- `<header>` - Defines a header for a document or a section
+>- `<nav>` - Defines a container for navigation links
+>- `<section>` - Defines a section in a document
+>- `<article>` - Defines an independent self-contained article
+>- `<aside>` - Defines content aside from the content (like a sidebar)
+>- `<footer>` - Defines a footer for a document or a section
+>- `<details>` - Defines additional details
+>- `<summary>` - Defines a heading for the `<details>` element
+
 ---
   1. What CSS property is used to __italicize__ text? font-style
   2. What CSS property is used to __underline__ text? text-decoration
