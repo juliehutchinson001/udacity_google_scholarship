@@ -241,3 +241,77 @@
 </table>
 
 ## Conditionals
+
+### Logical Operators
+
+<table>
+    <tr>
+        <td>Operator</td>
+        <td>Meaning</td>
+        <td>Example</td>
+        <td>How it works</td>
+    </tr>
+    <tr>
+        <td> && </td>
+        <td>Logical AND</td>
+        <td>condition1 && condition2</td>
+        <td>Returns true if both condition1 and condition2 evaluate to true</td>
+    </tr>
+    <tr>
+        <td> || </td>
+        <td>Logical OR</td>
+        <td>condition1 || condition2</td>
+        <td>Returns true if either condition1 or condition2 (or even both) evaluates to true</td>
+    </tr>
+    <tr>
+        <td> ! </td>
+        <td>Logical NOT</td>
+        <td>!condition1</td>
+        <td>Returns the opposite of condition1. If condition1 is true, then !condition1 is false</td>
+    </tr>
+</table>
+
+### Truthy and Falsy
+
+>- A value is falsy if it converts to false when evaluated in a boolean context. For example, an empty String "" is falsy because, "" evaluates to false.
+
+```
+if ("") {
+    console.log("the value is truthy");
+} else {
+    console.log("the value is falsy");
+}
+
+>>> the value is falsy
+```
+
+>- The list of all of __falsy__ values is:
+>>- false (the Boolean expresion) === false
+>>- null (the type) === false
+>>- 0 (the number) === false
+>>- 0.0 (the number) === false
+>>- "" (the empty string) === false
+>>- NaN (the odd value) === false
+
+>- A value is truthy if it converts to true when evaluated in a boolean context. For example, the number 1 is truthy because, 1 evaluates to true.
+
+```
+if (1) {
+    console.log("the value is truthy");
+} else {
+    console.log("the value is falsy");
+}
+
+>>> the value is truthy
+```
+
+>- The list of some of __truthy__ values is:
+>>- true (the Boolean expresion) === true
+>>- 42 (the number) === true
+>>- "0" (the string) === true
+>>- "null" (the null string) === true
+>>- "undefined" (the string) === true
+>>- [] (the expresion) === true
+>>- {} (the expresion) === true
+
+### Ternary Operator
