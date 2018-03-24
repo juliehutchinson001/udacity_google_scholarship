@@ -32,6 +32,7 @@
   4. What CSS property is used to __bold__ text? font-weight
 
   5. Which HTML elements match the given CSS statement?
+
 ```
   .right {
        text-align: right;
@@ -53,7 +54,7 @@
 ---
 >- A stylesheet is a file containing the code that describes how elements on your webpage should be displayed.
 
->- To link your stylesheet to your html file, you'll need to create a <link> to your stylesheet in your HTML.
+>- To link your stylesheet to your html file, you'll need to create a `<link>` to your stylesheet in your HTML.
 
 ```
 <link href="path-to-stylesheet/stylesheet.css" rel="stylesheet">
@@ -69,3 +70,174 @@
   <!-- ... -->
 </head>
 ```
+
+## Sublime and Atom Keyboard shortcuts
+
+<table>
+    <tr>
+        <td>Mac</td>
+        <td>Windows/Linux</td>
+    </tr>
+    <tr>
+        <td>
+          <ul>
+            <li>Cut: command + X</li>
+            <li>Copy: command + C</li>
+            <li>Paste: command + V</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Cut: Ctrl + X</li>
+            <li>Copy: Ctrl + C</li>
+            <li>Paste: Ctrl + V</li>
+          </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          <ul>
+            <li>Undo: command + Z</li>
+            <li>Redo: command + shift + Z</li>
+            <li>Redo: command + Y</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Undo: Ctrl + Z</li>
+            <li>Redo: Ctrl + shift + Z</li>
+            <li>Redo: Ctrl + Y</li>
+          </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>Duplicate (w/w.o selection): command + shift + D</td>
+        <td>Duplicate (w/w.o selection): Ctrl + shift + D</td>
+    </tr>
+    <tr>
+        <td>
+          <ul>
+            <li>Select Word: command + D</li>
+            <li>Select Line: command + L</li>
+            <li>Select All: command + A</li>
+            <li>Select Every Instance: command + control + G</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Select Word: Ctrl + D</li>
+            <li>Select Line: Ctrl + L</li>
+            <li>Select All: Ctrl + A</li>
+            <li>Select Every Instance: Alt + F3</li>
+          </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          <ul>
+            <li>Move Cursor to previous word: option + left_arrow</li>
+            <li>Move Cursor to next word: option + right_arrow</li>
+            <li>Move Cursor to start of line: command + left_arrow</li>
+            <li>Move Cursor to end of line: command + right_arrow</li>
+            <li>Move Cursor to start of document: command + upward_arrow</li>
+            <li>Move Cursor to end of document: command + downward_arrow</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Move Cursor to previous word: Ctrl + left_arrow</li>
+            <li>Move Cursor to next word: Ctrl + right_arrow</li>
+            <li>Move Cursor to start of line: Home</li>
+            <li>Move Cursor to end of line: End</li>
+            <li>Move Cursor to start of document: Ctrl + Home</li>
+            <li>Move Cursor to end of document: Ctrl + End</li>
+          </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          <ul>
+            <li>Jump to open/close ()[]{}: command + M</li>
+            <li>Jump to definition: command + R</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Jump to open/close ()[]{}: Ctrl + M</li>
+            <li>Jump to Definition: Ctrl + R</li>
+          </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          <ul>
+            <li>Indent: command + ]</li>
+            <li>Unindent: command + [</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Indent: Ctrl + ]</li>
+            <li>Unindent: Ctrl + [</li>
+          </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          <ul>
+            <li>Toggle comment: command + /</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Toggle comment: Ctrl + /</li>
+          </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          <ul>
+            <li>New Tab: command + N</li>
+            <li>Switch Tab Left: command + shift + [</li>
+            <li>Switch Tab Right: command + shift + ]</li>
+            <li>Close Tab: command + W</li>
+            <li>Reopen Tab: command + shift + T</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>New Tab: Ctrl + N</li>
+            <li>Switch Tab Left: Ctrl + PgUp</li>
+            <li>Switch Tab Right: Ctrl + PgDn</li>
+            <li>Close Tab: Ctrl + W</li>
+            <li>Reopen Tab: Ctrl + shift + T</li>
+          </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          <ul>
+            <li>Quick Open: command + P</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Quick Open: Ctrl + P</li>
+          </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          <ul>
+            <li>Find: command + F</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Find: Ctrl + F</li>
+          </ul>
+        </td>
+    </tr>
+</table>
+
+## Conditionals
