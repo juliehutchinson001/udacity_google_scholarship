@@ -1,46 +1,21 @@
-/* add your CSS here */
+:root {
+  
+  /*  Variables  */
 
-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 900px;
-}
+    /* Darker Blue Colors */
+    --dark-blue: #333A67;
+    --dark-mid-blue: #2D67C3; 
+    --dark-lighter-blue: #2A62C4;
 
-.card {
-  border: 2px solid rgb(212, 212, 212);
-  box-shadow: 7px 5px rgb(233, 233, 233);
-}
+    /*  Lighter Blue Colors */
+    --mid-blue: #3E8BAB;
+    --middler-blue: #5BA4BD;
+    --mid-lighter-blue: #4B8AA4;
 
-.top-card {
-  padding: 0 1em;
-}
-
-.picture {
-  width: 300px;
-}
-
-.bottom-card {
-  margin: 1em;
-  border: 1px solid rgb(212, 212, 212);
-  width: 300px;
-}
-
-.bottom-container {
-  padding: 1em;
-  font-size: 12px;
-}
-
-.fact-title {
-  font-style: italic;
-}
-
-.profile-facts {
-  list-style: none;
-  padding-left: 0;
-}
-
-span {
-  font-weight: bold;
-}
+    /*  Green Colors */
+    --darker-light-green: #4FAD8B;
+    --light-green: #6FEF69;
+    --mid-green: #5CC681;
+  }
+  
+  
