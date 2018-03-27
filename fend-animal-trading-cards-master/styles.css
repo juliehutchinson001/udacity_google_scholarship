@@ -46,4 +46,8 @@
     box-shadow: 9px 7px rgb(233, 233, 233);
   }
   
+  .card:hover {
+    transform: none;
+  }
+  
   
