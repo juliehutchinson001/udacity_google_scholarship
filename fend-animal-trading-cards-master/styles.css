@@ -1,7 +1,7 @@
 :root {
   
   /*  Variables  */
-
+  
     /* Darker Blue Colors */
     --dark-blue: #333A67;
     --dark-mid-blue: #2D67C3; 
@@ -16,6 +16,20 @@
     --darker-light-green: #4FAD8B;
     --light-green: #6FEF69;
     --mid-green: #5CC681;
+  }
+  
+  body {
+
+    /*  Layout  */
+    display: flex;
+    
+    /*  Margin  */
+    flex-direction: column;
+    height: 800px;  
+    
+    /*  Position  */
+    align-items: center;
+    justify-content: center;
   }
   
   
