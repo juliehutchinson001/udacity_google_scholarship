@@ -315,3 +315,25 @@ if (1) {
 >>- {} (the expresion) === true
 
 ### Ternary Operator
+
+>- The ternary operator provides you with a shortcut alternative for writing lengthy if...else statements.
+
+```
+conditional ? (if condition is true) : (if condition is false)
+```
+
+> To use the ternary operator,
+
+>>- first provide a conditional statement on the left-side of the ?.
+>>- Then, between the ? and : write the code that would run if the condition is true
+>>- and on the right-hand side of the : write the code that would run if the condition is false.
+
+For example:
+
+```
+var isGoing = true;
+var color = isGoing ? "green" : "red";
+console.log(color);
+
+>>> green
+```
