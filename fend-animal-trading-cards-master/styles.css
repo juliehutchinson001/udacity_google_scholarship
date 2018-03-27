@@ -55,4 +55,8 @@
     transition: all 0.8s ease-in-out;
   }
   
+  .top-card {
+    padding: 0 1em;
+  }
+  
   
