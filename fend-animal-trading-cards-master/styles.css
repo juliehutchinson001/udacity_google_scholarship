@@ -109,3 +109,14 @@
     font-weight: bold;
   }
   
+  @keyframes borderChange {
+    0% {border-color: var(--dark-blue);}
+    16.6% {border-color: var(--dark-mid-blue);}
+    32.6% {border-color: var(--dark-lighter-blue);}
+    48.6% {border-color: var(--mid-blue);}
+    64.6% {border-color: var(--darker-light-green);}
+    80.6% {border-color: var(--mid-green);}
+    90.6% {border-color: var(--light-green);}
+    96.8% {border-color: var(--middler-blue);}
+    100% {border-color: var(--mid-lighter-blue);}
+   }
