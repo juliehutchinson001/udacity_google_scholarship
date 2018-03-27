@@ -67,4 +67,29 @@
     width: 300px;
   }
   
+  .bottom-card {
+    
+    /*  Animation  */
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-name: borderChange;
+    animation-timing-function: ease-in-out;
+    
+    /*  Color  */
+    border: 2px solid rgb(212, 212, 212);
+    
+    /*  Margin  */
+    margin: 1em;
+    width: 300px;
+  }
+  
+  .bottom-container {
+    
+    /*   Font   */
+    font-size: 14px;
+    
+    /*  Margin  */
+    padding: 1em;
+  }
+  
   
