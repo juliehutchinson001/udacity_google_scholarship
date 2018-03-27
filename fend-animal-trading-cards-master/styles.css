@@ -32,4 +32,18 @@
     justify-content: center;
   }
   
+  .card {
+    
+    /*  Animations  */
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-name: borderChange;
+    animation-timing-function: ease-in-out;
+    transform: rotate(35deg) rotateX(20deg) rotateY(-30deg);
+    
+    /*  Outline  */
+    border: 5px solid rgb(212, 212, 212);
+    box-shadow: 9px 7px rgb(233, 233, 233);
+  }
+  
   
