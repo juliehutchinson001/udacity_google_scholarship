@@ -96,4 +96,16 @@
     font-style: italic;
   }
   
+  .profile-facts {
+    
+    /*  Decorations  */
+    list-style: none;
+    
+    /*  Margin  */
+    padding-left: 0;
+  }
+  
+  span {
+    font-weight: bold;
+  }
   
