@@ -23,4 +23,5 @@ while (countdown >= 0) {
     } else {
         console.log("T-" + countdown + " seconds");
     }
+    countdown -= 1;
 }
