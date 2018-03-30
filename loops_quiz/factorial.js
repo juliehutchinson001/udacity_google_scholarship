@@ -13,3 +13,26 @@
  */
 
 // your code goes here
+let factorialIterative = (n) => {
+    // one liner
+    // return reduce((x, y) => { x * y, range(1, n + 1) });
+    
+    // check for edge case because the factorial of 0 is 1
+    if (n == 0) { return 1 }
+  
+    //set counter
+    counter = n - 1;
+    
+    //set result
+    finalFactResult = n;
+
+    //loop until all of the factorial numbers have been calculated
+    while (counter > 0) {
+        //multiply result by the next factorial number
+        finalFactResult *= counter;
+        //set next factorial number
+        counter -= 1;
+    }
+    
+    return finalFactResult
+}; factorialIterative = (5);
