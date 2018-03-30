@@ -11,8 +11,17 @@
  */
 
 // Write your code here
-for (var row = 26 ; row > 0 ; row--) {
-    for (var seat = 100 ; seat > 0 ; seat--) {
+for (var row = 25 ; row > 0 ; row--) {
+    for (var seat = 99 ; seat > 0 ; seat--) {
+        console.log(row + '-' + seat);
+    }
+}
+
+/* ---------------------------------------------------- */ 
+
+// Write your code here
+for (var row = 0 ; row < 26 ; row++) {
+    for (var seat = 0 ; seat < 100 ; seat++) {
         console.log(row + '-' + seat);
     }
 }
