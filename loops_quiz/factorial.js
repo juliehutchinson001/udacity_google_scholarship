@@ -34,8 +34,8 @@ let factorialIterative = (n) => {
         counter -= 1;
     }
     
-    return finalFactResult
-}; factorialIterative = (5);
+    console.log(finalFactResult);
+}; factorialIterative (8);
 
 /* ------------------------------------------------------------------- */
 
@@ -57,5 +57,5 @@ let factorialForLoop = (n) => {
         counter--;
     }
     
-    return finalFactResult
-}; factorialForLoop = (5);
+    console.log(finalFactResult);
+}; factorialForLoop (5);
