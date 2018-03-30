@@ -10,3 +10,16 @@
  *    is called multiple times
  */
 
+
+function laugh(num) {
+    let astring = "ha";
+    let finalChars = "";
+    
+    for(let rept = 1 ; rept <= num ; rept++){
+        finalChars += "astring";
+    }
+    
+    return finalChars + "!";
+}
+
+console.log(laugh(5));
