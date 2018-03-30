@@ -53,8 +53,6 @@ let factorialForLoop = (n) => {
     for (var counter = n - 1 ; counter > 0 ; counter --) {
         //multiply result by the next factorial number
         finalFactResult *= counter;
-        //set next factorial number
-        counter--;
     }
     
     console.log(finalFactResult);
