@@ -10,15 +10,20 @@
  *    is called multiple times
  */
 
-
 function laugh(num) {
-    let astring = "ha";
-    let finalChars = "";
     
-    for(let rept = 1 ; rept <= num ; rept++){
-        finalChars += "astring";
+    //initial string to be printed
+    var astring = "ha";
+    //final result variable
+    var finalChars = "";
+    
+    //number of repetitions of the initial string
+    for(var rept = 1 ; rept <= num ; rept++){
+        //concatenate the final string
+        finalChars += astring;
     }
     
+    //return final string with the exclamation mark
     return finalChars + "!";
 }
 
