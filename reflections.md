@@ -81,25 +81,11 @@
     <tr>
         <td>
           <ul>
-            <li>Cut: command + X</li>
-            <li>Copy: command + C</li>
-            <li>Paste: command + V</li>
-          </ul>
-        </td>
-        <td>
-          <ul>
-            <li>Cut: Ctrl + X</li>
-            <li>Copy: Ctrl + C</li>
-            <li>Paste: Ctrl + V</li>
-          </ul>
-        </td>
-    </tr>
-    <tr>
-        <td>
-          <ul>
             <li>Undo: command + Z</li>
             <li>Redo: command + shift + Z</li>
             <li>Redo: command + Y</li>
+            <li>Delete line: Ctrl + shift + K</li>
+            <li>Delete line (from any location within that line): command + X</li>
           </ul>
         </td>
         <td>
@@ -107,6 +93,24 @@
             <li>Undo: Ctrl + Z</li>
             <li>Redo: Ctrl + shift + Z</li>
             <li>Redo: Ctrl + Y</li>
+            <li>Delete line: Ctrl + shift + K</li>
+            <li>Delete line (from any location within that line): Ctrl + X</li>
+          </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          <ul>
+            <li>Move Line Up: Ctrl + command + up</li>
+            <li>Move Line Down: Ctrl + command + down</li>
+            <li>Go to line #: Ctrl + G</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Move Line Up: Ctrl + up</li>
+            <li>Move Line Down: Ctrl + down</li>
+            <li>Go to line #: Ctrl + G</li>
           </ul>
         </td>
     </tr>
@@ -167,6 +171,22 @@
             <li>Jump to Definition: Ctrl + R</li>
           </ul>
         </td>
+    </tr>
+    <tr>
+      <td>
+        <ul>
+          <li>Cut: command + X</li>
+          <li>Copy: command + C</li>
+          <li>Paste: command + V</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Cut: Ctrl + X</li>
+          <li>Copy: Ctrl + C</li>
+          <li>Paste: Ctrl + V</li>
+        </ul>
+      </td>
     </tr>
     <tr>
         <td>
