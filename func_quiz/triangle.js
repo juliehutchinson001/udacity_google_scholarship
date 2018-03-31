@@ -11,16 +11,21 @@ function makeLine(length) {
     return line + "\n";
 }
 
-// your code goes here.  Make sure you call makeLine() in your own code.
+// Define the function to build the triangle
 function buildTriangle(num) {
+    
+    //this variable concatenates my stars
     var piramid = "";
+    
+    // looping through each new line of the triangle
     for (var aCounter = 1 ; aCounter <= num ; aCounter++) {
+        
+        //concatenate the stars when makeLine is invoked in each iteration
         piramid += makeLine(aCounter);
     }
+    
+    //return final result once the loop ends
     return piramid;
 }
-
-console.log(buildTriangle(10));
-
 // test your code by uncommenting the following line
-//console.log(buildTriangle(10));
+console.log(buildTriangle(10));
