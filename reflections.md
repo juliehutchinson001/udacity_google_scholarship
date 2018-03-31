@@ -531,7 +531,7 @@ function findAverage(x, y) {
   return answer;
 }
 ```
-What value will be printed to the console?
+>- What value will be printed to the console?
 
 ```
 sayHi("Julia");
@@ -544,8 +544,42 @@ function sayHi(name) {
 >>> undefined Julia
 
 ```
+### Function Declarations
 
+>- In JavaScript, you can also store functions in variables. When a function is stored inside a variable it's called a function expression.
 
+```
+var catSays = function(max) {
+  var catMessage = "";
+  for (var i = 0; i < max; i++) {
+    catMessage += "meow ";
+  }
+  return catMessage;
+};
+```
+
+>- The following is an anonymous function, a function with no name, and you've stored it in a variable called catSays. And, if you try accessing the value of the variable catSays, you'll even see the function returned back to you.
+
+```
+var catSays = function(max) {
+  // code here
+};
+```
+
+Then,
+
+```
+catSays;
+Returns:
+
+function(max) {
+  var catMessage = ""
+  for (var i = 0; i < max; i++) {
+    catMessage += "meow ";
+  }
+  return catMessage;
+}
+```
 
 
 
