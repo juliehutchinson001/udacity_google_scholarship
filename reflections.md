@@ -531,9 +531,19 @@ function findAverage(x, y) {
   return answer;
 }
 ```
+What value will be printed to the console?
 
+```
+sayHi("Julia");
 
+function sayHi(name) {
+  console.log(greeting + " " + name);
+  var greeting;
+}
 
+>>> undefined Julia
+
+```
 
 
 
