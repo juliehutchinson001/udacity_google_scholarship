@@ -16,6 +16,12 @@ function emotions(myString, myFunc) {
     console.log("I am " + myString + ", " + myFunc(2));
 }
 
-// your code goes here
-// call the emotions function here and pass in an
-// inline function expression
+emotions("happy", function laugh(num) {
+    var final = "";
+    var funny = "ha";
+
+    for(var i = 1 ; i <= num ; i++) {
+        final += funny;
+    }
+    return final + "!";
+});
