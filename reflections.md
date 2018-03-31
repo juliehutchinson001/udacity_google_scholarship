@@ -544,9 +544,10 @@ function sayHi(name) {
 >>> undefined Julia
 
 ```
+
 ### Function Declarations
 
->- In JavaScript, you can also store functions in variables. When a function is stored inside a variable it's called a function expression.
+>- In JavaScript, when a function is stored inside a variable it's called a __function expression__.
 
 ```
 var catSays = function(max) {
@@ -558,36 +559,71 @@ var catSays = function(max) {
 };
 ```
 
->- The following is an anonymous function, a function with no name, and you've stored it in a variable called catSays. And, if you try accessing the value of the variable catSays, you'll even see the function returned back to you.
+>- The following is an __anonymous function__, a function with no name that is stored in a variable called catSays.
 
 ```
 var catSays = function(max) {
   // code here
 };
-```
 
-Then,
-
-```
 catSays;
-Returns:
 
-function(max) {
-  var catMessage = ""
-  for (var i = 0; i < max; i++) {
-    catMessage += "meow ";
+>>> {
+  function(max) {
+    var catMessage = ""
+    for (var i = 0; i < max; i++) {
+      catMessage += "meow ";
+    }
+    return catMessage;
   }
-  return catMessage;
 }
+
 ```
 
 ### Function expressions and hoisting
 
->- Deciding when to use a function expression and when to use a function declaration can depend on a few things, and you will see some ways to use them in the next section. But, one thing you'll want to be careful of, is hoisting.
-
 >- All function declarations are hoisted and loaded before the script is actually run. Function expressions are not hoisted, since they involve variable assignment, and only variable declarations are hoisted. The function expression will not be loaded until the interpreter reaches it in the script.
 
+```
+function cat() {
+  function purr() {
+    return "purrrr!";
+  }
+  console.log(meow());
 
+  var meow = function(max) {
+    for(var i = 0 ; i < max ; i++) {
+      catMessage += "meow ";
+    }
+    return catMessage;
+  }
+
+}
+
+>>> Uncaught TypeError: meow is not a function(...)
+```
+
+versus
+
+```
+console.log(cat());
+
+function cat() {
+  function purr() {
+    return "purrrr!";
+  }
+
+  var meow = function(max) {
+    for(var i = 0 ; i < max ; i++) {
+      catMessage += "meow ";
+    }
+    return catMessage;
+  }
+
+}
+
+>>> purrrr!
+```
 
 
 
