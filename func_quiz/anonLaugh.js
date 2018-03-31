@@ -10,6 +10,13 @@
  * 
  */
 
-var laugh = /* finish the function expression */
+var laugh = function(num) {
+    var finalR = "";
+
+    for(var i = 1 ; i <= num ; i++) {
+        finalR += "ha";
+    }
+    return finalR + "!";
+} /* finish the function expression */
 
 console.log(laugh(10));
