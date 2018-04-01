@@ -306,7 +306,7 @@ if ("") {
 ```
 
 >- The list of all of __falsy__ values is:
->>- false (the Boolean expresion) === false
+>>- false (the Boolean expression) === false
 >>- null (the type) === false
 >>- 0 (the number) === false
 >>- 0.0 (the number) === false
@@ -326,13 +326,13 @@ if (1) {
 ```
 
 >- The list of some of __truthy__ values is:
->>- true (the Boolean expresion) === true
+>>- true (the Boolean expression) === true
 >>- 42 (the number) === true
 >>- "0" (the string) === true
 >>- "null" (the null string) === true
 >>- "undefined" (the string) === true
->>- [] (the expresion) === true
->>- {} (the expresion) === true
+>>- [] (the expression) === true
+>>- {} (the expression) === true
 
 ### Ternary Operator
 
@@ -351,8 +351,8 @@ conditional ? (if condition is true) : (if condition is false)
 For example:
 
 ```
-var isGoing = true;
-var color = isGoing ? "green" : "red";
+let isGoing = true;
+let color = isGoing ? "green" : "red";
 console.log(color);
 
 >>> green
@@ -383,7 +383,7 @@ switch (option) {
 >- When the switch statement first evaluates, it looks for the first case clause whose expression evaluates to the same value as the result of the expression passed to the switch statement. Then, it transfers control to that case clause, executing the associated statements. So, if you set option equal to 3...
 
 ```
-var option = 3;
+let option = 3;
 
 switch (option) {
   ...
@@ -401,7 +401,7 @@ switch (option) {
 >- The break statement can be used to terminate a switch statement and transfer control to the code following the terminated statement. By adding a break to each case clause, you fix the issue of the switch statement falling-through to other case clauses.
 
 ```
-var option = 3;
+let option = 3;
 
 switch (option) {
   case 1:
@@ -431,7 +431,7 @@ switch (option) {
 >- How to get to the next item: The incrementing or decrementing step — for example, x = x * 3 or x = x - 1
 
 ```
-var start = 0; // when to start
+let start = 0; // when to start
 while (start < 10) { // when to stop
   console.log(start);
   start = start + 2; // how to get to the next item
@@ -449,12 +449,12 @@ while (start < 10) { // when to stop
 
 function add(x, y) {
   // function body
-  var sum = x + y;
+  let sum = x + y;
   return sum; // return statement
 }
 
 // 1 and 2 are passed into the function as arguments
-var sum = add(1, 2);
+let sum = add(1, 2);
 ```
 
 >- The function body is enclosed inside curly brackets:
@@ -468,14 +468,15 @@ function add(x, y) {
 >- Return statements explicitly make your function return a value:
 
 ```
-return sum;
+>>> sum;
 ```
 
 >- You invoke or call a function to have it do something:
 
 ```
 add(1, 2);
-Returns: 3
+
+>>> 3
 ```
 
 ### variables
@@ -488,7 +489,7 @@ Returns: 3
 ### Shadowing
 
 ```
-var x = 1;
+let x = 1;
 
 function addTwo() {
   x = x + 2;
@@ -505,10 +506,10 @@ console.log(x);
 versus
 
 ```
-var x = 1;
+let x = 1;
 
 function addTwo() {
-  var x = x + 2;
+  let x = x + 2;
 }
 
 addTwo();
@@ -527,7 +528,7 @@ console.log(x);
 findAverage(5,9);
 
 function findAverage(x, y) {
-  var answer = (x + y)/2;
+  let answer = (x + y)/2;
   return answer;
 }
 ```
@@ -538,7 +539,7 @@ sayHi("Julia");
 
 function sayHi(name) {
   console.log(greeting + " " + name);
-  var greeting;
+  let greeting;
 }
 
 >>> undefined Julia
@@ -550,9 +551,9 @@ function sayHi(name) {
 >- In JavaScript, when a function is stored inside a variable it's called a __function expression__.
 
 ```
-var catSays = function(max) {
-  var catMessage = "";
-  for (var i = 0; i < max; i++) {
+let catSays = function(max) {
+  let catMessage = "";
+  for (let i = 0; i < max; i++) {
     catMessage += "meow ";
   }
   return catMessage;
@@ -562,7 +563,7 @@ var catSays = function(max) {
 >- The following is an __anonymous function__, a function with no name that is stored in a variable called catSays.
 
 ```
-var catSays = function(max) {
+let catSays = function(max) {
   // code here
 };
 
@@ -570,8 +571,8 @@ catSays;
 
 >>> {
   function(max) {
-    var catMessage = ""
-    for (var i = 0; i < max; i++) {
+    let catMessage = ""
+    for (let i = 0; i < max; i++) {
       catMessage += "meow ";
     }
     return catMessage;
@@ -591,8 +592,8 @@ function cat() {
   }
   console.log(meow());
 
-  var meow = function(max) {
-    for(var i = 0 ; i < max ; i++) {
+  let meow = function(max) {
+    for(let i = 0 ; i < max ; i++) {
       catMessage += "meow ";
     }
     return catMessage;
@@ -613,8 +614,8 @@ function cat() {
     return "purrrr!";
   }
 
-  var meow = function(max) {
-    for(var i = 0 ; i < max ; i++) {
+  let meow = function(max) {
+    for(let i = 0 ; i < max ; i++) {
       catMessage += "meow ";
     }
     return catMessage;
@@ -633,9 +634,9 @@ function cat() {
 
 ```
 // function expression catSays
-var catSays = function(max) {
-  var catMessage = "";
-  for (var i = 0; i < max; i++) {
+let catSays = function(max) {
+  let catMessage = "";
+  for (let i = 0; i < max; i++) {
     catMessage += "meow ";
   }
   return catMessage;
@@ -657,9 +658,9 @@ helloCat(catSays);
 
 ```
 // function expression catSays
-var catSays = function(max) {
-  var catMessage = "";
-  for (var i = 0; i < max; i++) {
+let catSays = function(max) {
+  let catMessage = "";
+  for (let i = 0; i < max; i++) {
     catMessage += "meow ";
   }
   return catMessage;
@@ -680,7 +681,7 @@ helloCat(catSays);
 ```
 // Function expression that assigns the function displayFavorite
 // to the variable favoriteMovie
-var favoriteMovie = function displayFavorite(movieName) {
+let favoriteMovie = function displayFavorite(movieName) {
   console.log("My favorite movie is " + movieName);
 };
 
@@ -731,7 +732,7 @@ movies(function displayFavorite(movieName) {
 >- You can use the push() method to add elements to the end of an array.
 
 ```
-var donuts = ["glazed", "chocolate frosted", "Boston creme", "glazed cruller", "cinnamon sugar", "sprinkled"];
+let donuts = ["glazed", "chocolate frosted", "Boston creme", "glazed cruller", "cinnamon sugar", "sprinkled"];
 ```
 
 >- you can push donuts onto the end of the array using the push() method.
@@ -741,16 +742,31 @@ donuts.push("powdered"); // pushes "powdered" onto the end of the `donuts` array
 
 >>> 7
 
-console.log(donuts)
+console.log(donuts);
 
 >>> ["glazed", "chocolate frosted", "Boston creme", "glazed cruller", "cinnamon sugar", "sprinkled", "powdered"];
 ```
 
 >- Notice, with the push() method you need to pass the value of the element you want to add to the end of the array. Also, the push() method returns the length of the array after an element has been added.
 
+## Pop
 
+>- you can use the pop() method to remove elements from the end of an array.
 
+```
+let donuts = ["glazed", "chocolate frosted", "Boston creme", "glazed cruller", "cinnamon sugar", "sprinkled", "powdered"];
 
+donuts.pop(); // pops "powdered" off the end of the `donuts` array
+donuts.pop(); // pops "sprinkled" off the end of the `donuts` array
+donuts.pop(); // pops "cinnamon sugar" off the end of the `donuts` array
+
+>>> "cinnamon sugar"
+
+console.log(donuts);
+
+>>> ["glazed", "chocolate frosted", "Boston creme", "glazed cruller"];
+
+```
 
 
 
