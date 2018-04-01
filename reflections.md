@@ -752,6 +752,7 @@ console.log(donuts);
 ## Pop
 
 >- you can use the pop() method to remove elements from the end of an array.
+>- Also, pop() returns the element that has been removed in case you need to use it.
 
 ```
 let donuts = ["glazed", "chocolate frosted", "Boston creme", "glazed cruller", "cinnamon sugar", "sprinkled", "powdered"];
@@ -767,6 +768,8 @@ console.log(donuts);
 >>> ["glazed", "chocolate frosted", "Boston creme", "glazed cruller"];
 
 ```
+
+
 
 
 
