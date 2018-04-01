@@ -7,3 +7,6 @@
  */
 
 // your code goes here
+let udaciFamily = ["Julia", "James", "Julie"];
+
+console.log(udaciFamily);
