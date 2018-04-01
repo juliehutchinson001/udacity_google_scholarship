@@ -721,8 +721,32 @@ movies(function displayFavorite(movieName) {
 
 >- Anonymous inline function expressions are often used with function callbacks that are probably not going to be reused elsewhere. When you know the function is not going to be reused, it could save you many lines of code to just define it inline.
 
+# Arrays
 
+>- Array is a data structure that has the ability to store data more efficiently
+>- The two most common methods for modifying an array are push() and pop().
 
+## Push
+
+>- You can use the push() method to add elements to the end of an array.
+
+```
+var donuts = ["glazed", "chocolate frosted", "Boston creme", "glazed cruller", "cinnamon sugar", "sprinkled"];
+```
+
+>- you can push donuts onto the end of the array using the push() method.
+
+```
+donuts.push("powdered"); // pushes "powdered" onto the end of the `donuts` array
+
+>>> 7
+
+console.log(donuts)
+
+>>> ["glazed", "chocolate frosted", "Boston creme", "glazed cruller", "cinnamon sugar", "sprinkled", "powdered"];
+```
+
+>- Notice, with the push() method you need to pass the value of the element you want to add to the end of the array. Also, the push() method returns the length of the array after an element has been added.
 
 
 
