@@ -769,7 +769,25 @@ console.log(donuts);
 
 ```
 
+## Splice
+>- splice() method allows you to add and remove elements from anywhere within an array.
+>- splice() lets you specify the index location to add new elements, as well as the number of elements you'd like to delete (if any).
 
+```
+let donuts = ["glazed", "chocolate frosted", "Boston creme", "glazed cruller"];
+
+donuts.splice(1, 1, "chocolate cruller", "creme de leche"); // removes "chocolate frosted" at index 1 and adds "chocolate cruller" and "creme de leche" starting at index 1
+
+>>> ["chocolate frosted"]
+
+console.log(donuts);
+
+>>> ["glazed", "chocolate cruller", "creme de leche", "Boston creme", "glazed cruller"]
+```
+
+>- The _first argument_ represents the __starting index__ from where you want to change the array.
+>- the _second argument_ represents the __numbers of elements to remove__.
+>- the _remaining arguments_ represent the __elements to add__.
 
 
 
