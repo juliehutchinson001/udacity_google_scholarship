@@ -859,6 +859,26 @@ for (let i = 0; i < donuts.length; i++) {
 }
 ```
 
+#### Parameters
+
+>- The function that you pass to the forEach() method can take up to three parameters that can be called element, index, and array.
+>- The forEach() method will call this function once for each element in the array (hence the name forEach.)
+>- Each time, it will call the function with different arguments.
+
+>>- The __index parameter__ is the positions within the array (starting with zero).
+>>- The __element parameter__ is the values found within the array when index is called.
+>>- The __array parameter__ is the entire structure (data structure). It will get a reference to the whole array, if you wanted to modify the elements.
+
+```
+words = ["cat", "in", "hat"];
+words.forEach(function(word, num, all) {
+  console.log("Word " + num + " in " + all.toString() + " is " + word);
+});
+
+>>> Word 0 in cat,in,hat is cat
+    Word 1 in cat,in,hat is in
+    Word 2 in cat,in,hat is hat
+```    
 
 
 
