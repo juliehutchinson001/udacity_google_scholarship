@@ -38,3 +38,7 @@ let sister = "River";
 let shepherd = "Book";
 
 // your code goes here
+
+crew.push(doctor, sister, shepherd);
+
+console.log(crew);
