@@ -796,6 +796,43 @@ console.log(donuts);
 >- `splice()` can be used if you specify the index of the first element, and indicate that you want to delete 1 element.
 >- You can combine the elements in an array to form a string using the `join()` method.
 
+## Array Loops
+
+>- Once the data is in the array, you want to be able to efficiently access and manipulate each element in the array without writing repetitive code for each element.
+
+```
+let donuts = ["jelly donut", "chocolate donut", "glazed donut"];
+
+donuts[0] += " hole";
+donuts[1] += " hole";
+donuts[2] += " hole";
+
+console.log(donuts);
+
+>>> ["jelly donut hole", "chocolate donut hole", "glazed donut hole"]
+```
+
+>- To loop through an array, you can use a variable to represent the index in the array, and then loop over that index to perform manipulations.
+
+```
+let donuts = ["jelly donut", "chocolate donut", "glazed donut"];
+
+// the variable `i` is used to step through each element in the array
+for (let i = 0; i < donuts.length; i++) {
+    donuts[i] += " hole";
+    donuts[i] = donuts[i].toUpperCase();
+}
+
+console.log(donuts);
+
+>>> ["JELLY DONUT HOLE", "CHOCOLATE DONUT HOLE", "GLAZED DONUT HOLE"]
+```
+
+>- In this example, the variable i is being used to represent the index of the array. As i is incremented, you are stepping over each element in the array starting from 0 until donuts.length - 1 (donuts.length is out of bounds).
+
+
+
+
 
 
 
