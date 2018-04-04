@@ -1,3 +1,5 @@
+The following content is the compilation of the entire UDACITY SCHOLARSHIP PRE-SELECTION FACE learning notes that I decided to keep as a reminder... I hope you can make good use of this information... (By Julie Hutchinson 01/2018)
+
 >* Trees represent data that makeup websites: A parent branch `<ul>` has many children `<li></li>`.
 
 >* DOCTYPE: Describes the type of HTML. `<!DOCTYPE html>` helps the browser determine what type of HTML document it’s trying to parse and display.
