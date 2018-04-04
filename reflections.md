@@ -770,6 +770,7 @@ console.log(donuts);
 ```
 
 ## Splice
+
 >- splice() method allows you to add and remove elements from anywhere within an array.
 >- splice() lets you specify the index location to add new elements, as well as the number of elements you'd like to delete (if any).
 
@@ -788,6 +789,13 @@ console.log(donuts);
 >- The _first argument_ represents the __starting index__ from where you want to change the array.
 >- the _second argument_ represents the __numbers of elements to remove__.
 >- the _remaining arguments_ represent the __elements to add__.
+
+>- `shift()` will remove the first element from an array.
+>- `splice()` can be used if you specify the index of the first element, and indicate that you want to delete 1 element.
+>- You can combine the elements in an array to form a string using the `join()` method.
+
+
+
 
 
 
