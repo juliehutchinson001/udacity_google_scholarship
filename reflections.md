@@ -830,6 +830,38 @@ console.log(donuts);
 
 >- In this example, the variable i is being used to represent the index of the array. As i is incremented, you are stepping over each element in the array starting from 0 until donuts.length - 1 (donuts.length is out of bounds).
 
+### The forEach loop
+
+>- The forEach() method gives you an alternative way to iterate over an array, and manipulate each element in the array with an inline function expression.
+
+```
+let donuts = ["jelly donut", "chocolate donut", "glazed donut"];
+
+donuts.forEach(function(donut) {
+  donut += " hole";
+  donut = donut.toUpperCase();
+  console.log(donut);
+});
+
+>>> JELLY DONUT HOLE
+    CHOCOLATE DONUT HOLE
+    GLAZED DONUT HOLE
+```
+
+>- the forEach() method iterates over the array without the need of an explicitly defined index.
+>- In the example above, donut corresponds to the element in the array itself. This is different from a for or while loop where an index is used to access each element in the array:
+
+```
+for (let i = 0; i < donuts.length; i++) {
+  donuts[i] += " hole";
+  donuts[i] = donuts[i].toUpperCase();
+  console.log(donuts[i]);
+}
+```
+
+
+
+
 
 
 
