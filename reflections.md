@@ -17,7 +17,8 @@ The following content is the compilation of the entire UDACITY SCHOLARSHIP PRE-S
 >* apply `<script type="text/javascript">` tag to apply javascript to a page.
 >* CSS measurement units can be: _absolute-_ (100px/in/cm/mm) fixed units of measurement. _relative-_ (100%/em/vw -viewport width-/vh -viewport height-) units that are a comparison to another linked property.
 
-## HTML5 Semantic Elements    
+## HTML5 Semantic Elements
+
 >- `<header>` - Defines a header for a document or a section
 >- `<nav>` - Defines a container for navigation links
 >- `<section>` - Defines a section in a document
@@ -26,6 +27,20 @@ The following content is the compilation of the entire UDACITY SCHOLARSHIP PRE-S
 >- `<footer>` - Defines a footer for a document or a section
 >- `<details>` - Defines additional details
 >- `<summary>` - Defines a heading for the `<details>` element
+
+1. The outermost sectioning element is always the <body></body> tag.
+
+2. Sections in HTML5 can be nested.
+
+3. Each section has its own heading hierarchy. Each of them (even the innermost nested section) can have an h1 tag.
+
+4. While the document outline is primarily defined by the 5 sectioning elements, it also needs proper headings for each section.
+
+5. It’s always the first heading element (let it be h1 or a lower rank heading tag) that defines the heading of the given section. The following heading tags inside the same section need to be relative to this. (If the first heading is an h3 inside a sectioning element, don’t put an h3 after that.)
+
+6. The sections defined by the <nav></nav>, and the <aside></aside> tags don’t belong to the main outline of the HTML document, they are usually not rendered initially by assistive technologies.
+
+7. Each section (body, section, article, aside, nav) can have their own <header></header> and <footer></footer> tags, that defines the header (such as logo, author’s name, dates, meta info, etc.) and the footer (copyright, notes, links, etc.) of that section.
 
 ---
   1. What CSS property is used to __italicize__ text? font-style
