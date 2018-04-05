@@ -848,6 +848,7 @@ console.log(donuts);
 ### The forEach loop
 
 >- The forEach() method gives you an alternative way to iterate over an array, and manipulate each element in the array with an inline function expression.
+>- Using forEach() will not be useful if you want to permanently modify the original array.
 
 ```
 let donuts = ["jelly donut", "chocolate donut", "glazed donut"];
@@ -886,8 +887,8 @@ for (let i = 0; i < donuts.length; i++) {
 
 ```
 words = ["cat", "in", "hat"];
-words.forEach(function(word, num, all) {
-  console.log("Word " + num + " in " + all.toString() + " is " + word);
+words.forEach(function(word, num, arr) {
+  console.log("Word " + num + " in " + arr.toString() + " is " + word);
 });
 
 >>> Word 0 in cat,in,hat is cat
@@ -895,7 +896,30 @@ words.forEach(function(word, num, all) {
     Word 2 in cat,in,hat is hat
 ```    
 
+### map Loop
 
+>- creating a new array from an existing array is simple with the map() method.
+>- With the map() method, you can take an array, perform some operation on each element of the array, and return a new array.
+
+```
+let donuts = ["jelly donut", "chocolate donut", "glazed donut"];
+
+let improvedDonuts = donuts.map(function(donut) {
+  donut += " hole";
+  donut = donut.toUpperCase();
+  return donut;
+});
+
+console.log(donuts);
+
+>>> ["jelly donut", "chocolate donut", "glazed donut"]
+
+console.log(improvedDonuts);
+>>> ["JELLY DONUT HOLE", "CHOCOLATE DONUT HOLE", "GLAZED DONUT HOLE"]
+```
+
+>- The map() method accepts one argument, a function that will be used to manipulate each element in the array.
+>- In the above example, we used a function expression to pass that function into map(). This function is taking in one argument, donut which corresponds to each element in the donuts array.
 
 
 
