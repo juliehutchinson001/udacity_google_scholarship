@@ -984,6 +984,32 @@ let umbrella = {
 };
 ```
 
+>- objects have properties and things they can do, to add this information, you can define key value pairs for each piece of data, like defining a key property called color and its value is pink:
+
+```                                         /\
+let umbrella = {                           /  \
+  color: "gray",                          /    \
+  is_open: false                         /______\  
+}                                           ||
+```
+
+>- Opening the umbrella is a task you want the umbrella to be able to do, it's not a property which is an attribute that describes the umbrella.
+>- Something the object can do is a method. A __method__ is just a function that is associated with an object.
+
+```
+let umbrella = {
+  color: "gray",
+  is_open: false,
+  open: function() {
+    if(umbrella.isOpen === true) {
+      return "The umbrella is already open!";
+    } else {
+      return "Julie opens the umbrella";
+    }
+  }
+}
+```
+
 >- typeof is an operator that returns the name of the data type that follows it in the form of a string:
 
 >>- typeof "hello" // returns "string"
