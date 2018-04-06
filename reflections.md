@@ -975,7 +975,16 @@ for (let row = 0; row < donutBox.length; row++) {
 
 # Objects
 
->- typeof is an operator that returns the name of the data type that follows it:
+>- One way to create an object is to create a variable and assign it to a pair
+   of curly brackets
+
+```
+let umbrella = {
+
+};
+```
+
+>- typeof is an operator that returns the name of the data type that follows it in the form of a string:
 
 >>- typeof "hello" // returns "string"
 >>- typeof true // returns "boolean"
