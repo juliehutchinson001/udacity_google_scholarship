@@ -9,6 +9,7 @@
  *   { type: "Cider", cost: 1.59 },
  *   { type: "Boston Cream", cost: 5.99 }
  * ];
+ * 
  * Directions:
  * Use the forEach() method to loop over the array and print out the following donut summaries using console.log.
  * 
@@ -27,3 +28,7 @@ let donuts = [
 ];
 
 // your code goes here
+donuts.forEach( (element) => {
+    console.log(element.type + " donuts cost $" + element.cost + " each");
+    console.log(element["type"] + " donuts cost $" + element["cost"] + " each");
+});
