@@ -987,11 +987,11 @@ let umbrella = {
 
 >- objects have properties and things they can do, to add this information, you can define key value pairs for each piece of data, like defining a key property called color and its value is pink:
 
-```                                         /\
-let umbrella = {                           /  \
-  color: "gray",                          /    \
-  is_open: false                         /______\  
-}                                           ||
+```                                         
+let umbrella = {                           /\
+  color: "gray",                          /  \
+  is_open: false                         /____\  
+}                                          ||
 ```
 
 >- Opening the umbrella is a task you want the umbrella to be able to do, it's not a property which is an attribute that describes the umbrella.
@@ -1104,47 +1104,57 @@ richard.loves-snow // error
 
 >- By using Vanilla JavaScript to insert an element into the DOM, extra steps need to be taken:
 
->>- Creating an element:
+  1. Creating an element:
+`let div = document.createNode('div');
+`
 
-```
-let div = document.createNode('div');
-```
-
->>- Setting attributes and content of the new node:
-
-```
+  2. Setting attributes and content of the new node:
+`
 div.innerHTML = "Hello Julie";
-```
+`
 
->>- Select the soon-to-be parent of the new node:
-
-```
+  3. Select the soon-to-be parent of the new node:
+`
 let parent = document.querySelector('#parent');
-```
+`
 
->>- and then finally, inserting the new node as a child of the parent node:
-
-```
+  4. and then finally, inserting the new node as a child of the parent node:
+`
 parent.appendChild(div);
-```
+`
 
 >- But with jQuery, all of those steps are simplified to a one line of code:
-
-```
+`
 $('#parent').append("<div>Hello Julie</div>");
+`
+
+## What is the $ sign?
+
+>- With jQuery, the dollar sign is just a pointer to the JavaScript object that represents jQuery:
+
+```
+//Head over to the javascript developer tools in your browser (chrome in this):
+//go to udacity.com, and type in jQuery in the console:
+
+>>> function (e, t) { return new x.fn.init(e, t, r)}
 ```
 
+>- the previous code means that jQuery is an object (or a function) of JavaScript.
+>- If I type in the dollar sign ('$'):
 
+```
+> $
+>>> function (e, t) { return new x.fn.init(e, t, r)}
+```
 
+>- With jQuery, the dollar sign is just a pointer to the same JavaScript object
+>- jQuery returns an array-like object called __jQuery collection__, but this object has additional special methods.
 
+```
+$(string);        $(function);          $(DOM element);           $.ajax()
 
+$("#foo");
+>>> []
+```
 
-
-
-
-
-
-
-
-
-a
+>- a string, function, DOM element can be passed and a jQuery collection of DOM elements will be returned; you can call methods directly on the jQuery object like `$.ajax()` which subtracts away all the annoying nuances of ajax into a simple method called on the jQuery object
