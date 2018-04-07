@@ -1100,6 +1100,45 @@ richard.1stSon // error
 richard.loves-snow // error
 ```
 
+# Why does jQuery exists
+
+>- By using Vanilla JavaScript to insert an element into the DOM, extra steps need to be taken:
+
+>>- Creating an element:
+
+```
+let div = document.createNode('div');
+```
+
+>>- Setting attributes and content of the new node:
+
+```
+div.innerHTML = "Hello Julie";
+```
+
+>>- Select the soon-to-be parent of the new node:
+
+```
+let parent = document.querySelector('#parent');
+```
+
+>>- and then finally, inserting the new node as a child of the parent node:
+
+```
+parent.appendChild(div);
+```
+
+>- But with jQuery, all of those steps are simplified to a one line of code:
+
+```
+$('#parent').append("<div>Hello Julie</div>");
+```
+
+
+
+
+
+
 
 
 
