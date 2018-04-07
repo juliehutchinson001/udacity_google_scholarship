@@ -4,7 +4,7 @@
  * Directions:
  * Using the object from the previous quiz, answer the following quiz question:
  * 
- * var savingsAccount = {
+ * let savingsAccount = {
  *   balance: 1000,
  *   interestRatePercent: 1,
  *   deposit: function addMoney(amount) {
@@ -13,7 +13,7 @@
  *     }
  *   },
  *   withdraw: function removeMoney(amount) {
- *     var verifyBalance = savingsAccount.balance - amount;
+ *     let verifyBalance = savingsAccount.balance - amount;
  *     if (amount > 0 && verifyBalance >= 0) {
  *       savingsAccount.balance -= amount;
  *     }
@@ -26,3 +26,7 @@
  * methods from the savingsAccount object?
  * 
  */
+
+savingsAccount.balance;
+savingsAccount["balance"];
+savingsAccount.withdraw(50);
