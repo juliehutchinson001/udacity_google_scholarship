@@ -1018,6 +1018,40 @@ let umbrella = {
 >>- typeof [1, 2, 3] // returns "object" (Arrays are a type of object)
 >>- typeof function hello() { } // returns "function"
 
+## Object-literal notation
+
+```
+let sister = {
+  name: "Sarah",
+  age: 23,
+  parents: [ "alice", "andy" ],
+  siblings: ["julia"],
+  favoriteColor: "purple",
+  pets: true
+};
+```
+
+>- The syntax you see above is called object-literal notation.
+>- The "key" (representing a property or method name) and its "value" are separated from each other by a colon
+>- The key: value pairs are separated from each other by commas
+>- The entire object is wrapped inside curly braces { }.
+>- The key in a key:value pair allows you to look up a piece of information about an object. Here's are a couple examples of how you can retrieve information about my Julia's sister's parents using the object you created.
+
+```
+// two equivalent ways to use the key to return its value
+sister["parents"] // returns [ "alice", "andy" ]
+sister.parents // also returns ["alice", "andy"]
+```
+
+>- sister["parents"] is called __bracket notation__ (because of the brackets!)
+>- sister.parents is called __dot notation__ (because of the dot!).
+
+
+
+
+
+
+
 
 
 
