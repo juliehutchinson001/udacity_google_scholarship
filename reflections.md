@@ -1043,8 +1043,32 @@ sister["parents"] // returns [ "alice", "andy" ]
 sister.parents // also returns ["alice", "andy"]
 ```
 
->- sister["parents"] is called __bracket notation__ (because of the brackets!)
->- sister.parents is called __dot notation__ (because of the dot!).
+>- `sister["parents"]` is called __bracket notation__ (because of the brackets!)
+>- `sister.parents` is called __dot notation__ (because of the dot!).
+
+## What about methods?
+
+```
+var sister = {
+  name: "Sarah",
+  age: 23,
+  parents: [ "alice", "andy" ],
+  siblings: ["julia"],
+  favoriteColor: "purple",
+  pets: true,
+  paintPicture: function() { return "Sarah paints!"; }
+};
+
+sister.paintPicture();
+>>> "Sarah paints!"
+```
+
+>- you can access the name of my sister by accessing the name property:
+
+```
+sister.name
+>>> "Sarah"
+```
 
 
 
