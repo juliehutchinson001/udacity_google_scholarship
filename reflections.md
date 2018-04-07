@@ -975,6 +975,7 @@ for (let row = 0; row < donutBox.length; row++) {
 
 # Objects
 
+>- objects are a data structure in javascript that lets you store data about a particular thing, and helps you keep track of data by using a "key".
 >- One way to create an object is to create a variable and assign it to a pair
    of curly brackets
 
