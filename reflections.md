@@ -1157,7 +1157,15 @@ $("#foo");
 >>> []
 ```
 
->- a string, function, DOM element can be passed and a jQuery collection of DOM elements will be returned; you can call methods directly on the jQuery object like `$.ajax()` which subtracts away all the annoying nuances of ajax into a simple method called on the jQuery object
+>- a string, function, DOM element can be passed (this passed arguments are called jQuery __selectors__) and a jQuery collection of DOM elements will be returned; you can call methods directly on the jQuery object like `$.ajax()` which subtracts away all the annoying nuances of ajax into a simple method called on the jQuery object
+>- you can use jQuery to select a collection of DOM elements based on tag name, class, or ID:
+
+```
+$('tag');
+$('.class');
+$('#id');
+```
+
 
 
 
@@ -1175,3 +1183,4 @@ $("#foo");
 >- <p>ECMAScript 6, or ES6's updates to JS language: <a href="https://www.udacity.com/course/es6-javascript-improved--ud356">ES6 - JavaScript Improved | Udacity</a></p>
 >- <p> Collection of JS utilities for the intermediate to advanced JS developer: <a href="https://mootools.net/">Mootools</a></p>
 >- <p> Make asynchronous requests in JavaScript: <a href="https://www.udacity.com/course/intro-to-ajax--ud110">Intro to Ajax | Udacity</a></p>
+>- <p> A fast, small, and feature-rich JavaScript library: <a href="http://api.jquery.com/">jQuery</a></p>
