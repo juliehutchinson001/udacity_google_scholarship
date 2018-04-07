@@ -1175,8 +1175,8 @@ $('#id');
         <td>Description</td>
     </tr>
     <tr>
-        <td> * </td>
-        <td>`$('*')`</td>
+        <td> (wild card \* ) </td>
+        <td> $(' * ') </td>
         <td>all elements</td>
     </tr>
     <tr>
