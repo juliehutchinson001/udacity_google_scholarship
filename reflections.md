@@ -1049,7 +1049,7 @@ sister.parents // also returns ["alice", "andy"]
 ## What about methods?
 
 ```
-var sister = {
+let sister = {
   name: "Sarah",
   age: 23,
   parents: [ "alice", "andy" ],
@@ -1070,8 +1070,35 @@ sister.name
 >>> "Sarah"
 ```
 
+## Object literals, methods, and properties
+>- You can define objects using object-literal notation:
 
+```
+let myObj = {
+  color: "orange",
+  shape: "sphere",
+  type: "food",
+  eat: function() { return "yummy" }
+};
 
+myObj.eat(); // method
+myObj.color; // property
+```
+
+## Naming conventions
+
+>- Feel free to use upper and lowercase numbers and letters, but don't start your property name with a number.
+>- You don't need to wrap the string in quotes! If it's a multi-word property, use camel case. Don't use hyphens in your property names
+
+```
+let richard = {
+  "1stSon": true;
+  "loves-snow": true;
+};
+
+richard.1stSon // error
+richard.loves-snow // error
+```
 
 
 
