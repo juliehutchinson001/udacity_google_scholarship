@@ -17,3 +17,24 @@
  */
  
  // your code goes here
+
+ let facebookProfile = {
+    name: "Julie",
+    numberOfFriends: 99,
+    messages: ["Hi there!", "No todos son malos", "Happy Birthday!", "What's up!"],
+    postMessage: function(message) {
+        message = "Welcome to facebook";
+        facebookProfile["messages"].push(message);
+    },
+    deleteMessage: function(index) {
+        if(index >= 0 && index < facebookProfile["messages"].length) {
+            facebookProfile["messages"].splice(index, 1);
+        }
+    },
+    addFriend: function() {
+        ++facebookProfile["numberOfFriends"]
+    },
+    removeFriend: function() {
+        --facebookProfile["numberOfFriends"]
+    }
+ };
