@@ -1181,83 +1181,83 @@ $('#id');
     </tr>
     <tr>
         <td>#id</td>
-        <td>`$('#div')`</td>
+        <td>$('#div')</td>
         <td>element with id="div"</td>
     </tr>
     <tr>
         <td>.class</td>
-        <td>`$('.div')`</td>
+        <td>$('.div')</td>
         <td>all elements with class="div"</td>
     </tr>
     <tr>
         <td>element</td>
-        <td>`$("p")`</td>
-        <td>all `<p>` elements</td>
+        <td>$("p")</td>
+        <td>all <p> elements</td>
     </tr>
     <tr>
-        <td>el1,el2,el3</td>
-        <td>`$("h1,h2,h3")`</td>
-        <td>all `<h1>, <h2>, <h3>` elements</td>
+        <td>el1, el2, el3</td>
+        <td>$("h1,h2,h3")</td>
+        <td>all <h1>, <h2>, <h3> elements</td>
     </tr>
     <tr>
         <td>:first</td>
-        <td>`$("h1:fist")`</td>
-        <td>first `<h1>` element</td>
+        <td>$("h1:fist")</td>
+        <td>first <h1> element</td>
     </tr>
     <tr>
         <td>:first-child</td>
-        <td>`$("b:fist-child")`</td>
-        <td>all `<b>` that are the 1st child of their parent</td>
+        <td>$("b:fist-child")</td>
+        <td>all <b> that are the 1st child of their parent</td>
     </tr>
     <tr>
         <td>:last</td>
-        <td>`$("h1:last")`</td>
-        <td>last `<h1>` element</td>
+        <td>$("h1:last")</td>
+        <td>last <h1> element</td>
     </tr>
     <tr>
         <td>:last-child</td>
-        <td>`$("b:last-child")`</td>
-        <td>all `<b>` elements that are the last child of their parent</td>
+        <td>$("b:last-child")</td>
+        <td>all <b> elements that are the last child of their parent</td>
     </tr>
     <tr>
         <td>:nth-child(n)</td>
-        <td>`$("div:nth-child(2)")`</td>
-        <td>all `<div>` elements that are 2nd child of their parent</td>
+        <td>$("div:nth-child(2)")</td>
+        <td>all <div> elements that are 2nd child of their parent</td>
     </tr>
     <tr>
         <td>parent > child</td>
-        <td>`$("div > p")`</td>
-        <td>all `<p>` elements that are a direct child of a `<div>` element</td>
+        <td>$("div > p")</td>
+        <td>all <p> elements that are a direct child of a <div> element</td>
     </tr>
     <tr>
         <td>parent descendant</td>
-        <td>`$("span p")`</td>
-        <td>all `<p>` elements that are descendants of a `<span>` element</td>
+        <td>$("span p")</td>
+        <td>all <p> elements that are descendants of a <span> element</td>
     </tr>
     <tr>
         <td>:eq(index)</td>
-        <td>`$("ul li:eq(2)")`</td>
+        <td>$("ul li:eq(2)")</td>
         <td>the 3rd element in a list (index starts at 0)</td>
     </tr>
     <tr>
         <td>:contains(text)</td>
-        <td>`$(":contains('solo')")`</td>
+        <td>$(":contains('solo')")</td>
         <td>all elements which contain the text 'solo'</td>
     </tr>
     <tr>
         <td>[attribute]</td>
-        <td>`$("[src]")`</td>
+        <td>$("[src]")</td>
         <td>all elements with a src attribute</td>
     </tr>
     <tr>
         <td>:input</td>
-        <td>`$(":input")`</td>
+        <td>$(":input")</td>
         <td>all input elements</td>
     </tr>
     <tr>
         <td>:text</td>
-        <td>`$(":text")`</td>
-        <td>all input elements with `type="text"`</td>
+        <td>$(":text")</td>
+        <td>all input elements with type="text"</td>
     </tr>
 </table>
 
