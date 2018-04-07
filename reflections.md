@@ -1192,12 +1192,12 @@ $('#id');
     <tr>
         <td>element</td>
         <td>$("p")</td>
-        <td>all <p> elements</td>
+        <td>all ```<p>``` elements</td>
     </tr>
     <tr>
         <td>el1, el2, el3</td>
         <td>$("h1,h2,h3")</td>
-        <td>all "<h1>, <h2>, <h3>" elements</td>
+        <td>all ```<h1>, <h2>, <h3>``` elements</td>
     </tr>
     <tr>
         <td>:first</td>
