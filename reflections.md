@@ -1380,3 +1380,5 @@ let idSelector = $("#Cameron").siblings();
 >- <p> Collection of JS utilities for the intermediate to advanced JS developer: <a href="https://mootools.net/">Mootools</a></p>
 >- <p> Make asynchronous requests in JavaScript: <a href="https://www.udacity.com/course/intro-to-ajax--ud110">Intro to Ajax | Udacity</a></p>
 >- <p> A fast, small, and feature-rich JavaScript library: <a href="http://api.jquery.com/">jQuery</a></p>
+>- <p> List of Traversing the DOM Tree methods: <a href="http://api.jquery.com/category/traversing/">jQuery API documentation | Traversing</a></p>
+>- <p> List of filtering elements in the DOM Tree methods: <a href="http://api.jquery.com/category/traversing/filtering/">jQuery API documentation | Filtering</a></p>
