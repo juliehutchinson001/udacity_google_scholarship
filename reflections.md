@@ -1192,7 +1192,7 @@ $('#id');
     <tr>
         <td>element</td>
         <td>$("p")</td>
-        <td>all ```<p>``` elements</td>
+        <td>all < 'p' > elements</td>
     </tr>
     <tr>
         <td>el1, el2, el3</td>
@@ -1260,6 +1260,42 @@ $('#id');
         <td>all input elements with 'type="text"'</td>
     </tr>
 </table>
+
+## Hosting jQuery
+
+>- You can add jQuery to any website using the `<script></script>` tag:
+>- Local:
+
+```
+<script src="js/jquery.min.js"></script>
+```
+
+>- You can host this file on your own server with a path like the previous one.
+>- jQuery official:
+
+```
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+```
+
+>- but it is recommended to use a version of jQuery hosted on a Content Delivery Network or CDN
+>- Content Delivery Network (like Google):
+
+```
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+```
+
+>- CDN's are usually much faster than your own server.
+>- it allows you to take advantage of the browser's caching feature.
+>- the minify version of jQuery is smaller, so it is much faster on page loads (production)
+
+
+
+
+
+
+
 
 
 
