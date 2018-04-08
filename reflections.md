@@ -1367,11 +1367,38 @@ let idSelector = $("#Cameron").siblings();
 
 ![jQueryAPIMainPage.jpg](https://github.com/juliehutchinson001/udacity_google_scholarship/blob/master/fend-animal-trading-cards-master/jQueryMethods.jpg?raw=true)
 
->- To modify the class attribute of an element, I'll select the methods pertaining classes, and the addClass() method seems appropriate:
+>- To modify the class attribute of an element, I'll select the methods pertaining Attributes, and the addClass() method seems appropriate.
+>- This is the information of a method called __addClass()__. This method adds a specified class to a DOM element.
+>- The black box shows the _main function signature_, which tells you what to pass in as an argument to this method to get it to work properly.
+>- Inside the black box, you can find a description of the method and different ways of using it.
+>- And then further below, you can find examples that utilize this method.
 
 ![jQueryAPI.jpg](https://github.com/juliehutchinson001/udacity_google_scholarship/blob/master/fend-animal-trading-cards-master/jQueryAPI.jpg?raw=true)
 
->- This is the information of a method called addClass().
+>- An example of the __.addClass()__ method:
+
+```
+$("#item").addClass('blue');
+```
+
+>- By performing the previous example, you have added a class named blue to the element with the id="item".
+>- Another example of a method's _main function signature_ shows the following notation:
+
+```
+.parents([selector])
+```
+
+>- Square brackets in the parameter mean that the parameter is optional for the method to work properly.
+
+
+
+
+
+
+
+
+
+
 
 
 
