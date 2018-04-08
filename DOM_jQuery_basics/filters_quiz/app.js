@@ -10,12 +10,11 @@ let articleList, h1, kids, parents;
 
 articleList = $('.article-list');
 
+// Your code goes here!
+h1 = articleList.siblings('h1');
 
 // Your code goes here!
-h1 = 
+kids = articleList.children();
 
 // Your code goes here!
-kids = 
-
-// Your code goes here!
-parents = 
+parents = articleList.parents('div');
