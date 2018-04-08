@@ -1276,7 +1276,7 @@ $('#id');
 >- jQuery official:
 
 ```
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
 
 ```
 
@@ -1284,7 +1284,7 @@ $('#id');
 >- Content Delivery Network (like Google):
 
 ```
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 ```
 
@@ -1382,3 +1382,4 @@ let idSelector = $("#Cameron").siblings();
 >- <p> A fast, small, and feature-rich JavaScript library: <a href="http://api.jquery.com/">jQuery</a></p>
 >- <p> List of Traversing the DOM Tree methods: <a href="http://api.jquery.com/category/traversing/">jQuery API documentation | Traversing</a></p>
 >- <p> List of filtering elements in the DOM Tree methods: <a href="http://api.jquery.com/category/traversing/filtering/">jQuery API documentation | Filtering</a></p>
+>- <p> List of selectors methods: <a href="http://api.jquery.com/category/selectors/">jQuery API documentation | Selectors</a></p>
