@@ -1292,6 +1292,73 @@ $('#id');
 >- it allows you to take advantage of the browser's caching feature.
 >- the minify version of jQuery is smaller, so it is much faster on page loads (production)
 
+## Family Tree Revisited
+
+>- Follow the next example to explain a few more selectors:
+
+```
+[John Audrey]
+      |
+[Jerry Judy]
+      |
+[Mark Suzanne]
+    /         \
+ [Max]       [Cameron]
+   |           /     \
+[Kagure]  [Taylor] [Grant]
+```
+
+>- If I select a node with an id "#Cameron", I can select my immediate parent by calling __.parent()__.
+>- __.parent()__ goes up the DOM one level, so now I am selecting the element with the id "#MarkSuzanne":
+
+```
+let idSelector = $("#Cameron").parent();
+
+>>> ['#MarkSuzanne'];
+```
+
+>- I can use __.parents()__ to select the parents, grandparents and great grandparents (many elements all the way up to the top of the DOM tree):
+
+```
+let idSelector = $("#Cameron").parents();
+
+>>> ['#MarkSuzanne', '#JerryJudy', '#JohnAudrey];
+```
+
+>- I could also filter a specific parent by passing another selector to the parents method:
+
+```
+let idSelector = $("#Cameron").parents('#JerryJudy');
+
+>>> ['#JerryJudy'];
+```
+
+>- I could go down the DOM too by using __.children()__ and select my children
+>- __.children()__ creates a jQuery collection of all of my immediate children, only one level down to the DOM:
+
+```
+let idSelector = $("#Cameron").children();
+
+>>> ['#Taylor', '#Grant'];
+```
+
+>- If I wanted to select my children's children, or any other children of '#Taylor' or '#Grant', I would use __.find()__.
+>- __.find()__ goes down the DOM more than one level.
+
+```
+let idSelector = $("#Cameron").find();
+
+>>> ['#Taylor', '#Grant', ..., '#...'];
+```
+
+>- Finally, there is a __.siblings()__. I am also able to pass a selector in the siblings method if I needed to get more specific.
+>- __.siblings()__ returns a jQuery collection of all of my siblings that have the same parent:
+
+```
+let idSelector = $("#Cameron").siblings();
+
+>>> ['#Max'];
+```
 
 
 
