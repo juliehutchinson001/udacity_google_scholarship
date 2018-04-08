@@ -1379,7 +1379,15 @@ let idSelector = $("#Cameron").siblings();
 >- <p>ECMAScript 6, or ES6's updates to JS language: <a href="https://www.udacity.com/course/es6-javascript-improved--ud356">ES6 - JavaScript Improved | Udacity</a></p>
 >- <p> Collection of JS utilities for the intermediate to advanced JS developer: <a href="https://mootools.net/">Mootools</a></p>
 >- <p> Make asynchronous requests in JavaScript: <a href="https://www.udacity.com/course/intro-to-ajax--ud110">Intro to Ajax | Udacity</a></p>
+>- <p> Learn how to handle asynchronous work in JavaScript: <a href="https://www.udacity.com/course/javascript-promises--ud898">Javascript promises | Udacity</a></p>
 >- <p> A fast, small, and feature-rich JavaScript library: <a href="http://api.jquery.com/">jQuery</a></p>
+>- <p> List of methods to modify DOM's elements's attributes: <a href="http://api.jquery.com/category/attributes/">jQuery API documentation | Attributes</a></p>
 >- <p> List of Traversing the DOM Tree methods: <a href="http://api.jquery.com/category/traversing/">jQuery API documentation | Traversing</a></p>
 >- <p> List of filtering elements in the DOM Tree methods: <a href="http://api.jquery.com/category/traversing/filtering/">jQuery API documentation | Filtering</a></p>
 >- <p> List of selectors methods: <a href="http://api.jquery.com/category/selectors/">jQuery API documentation | Selectors</a></p>
+
+# Disclaimer
+
+None of the content expressed in this summary belongs to me, it was originally provided by Udacity and instructors. I want to thank the Udacity and Google staffing for being able to share such a vast range of knowledge with us students. 
+
+Sincerely, JH
