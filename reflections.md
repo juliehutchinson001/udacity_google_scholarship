@@ -1362,9 +1362,14 @@ let idSelector = $("#Cameron").siblings();
 
 # jQuery documentation to perform DOM Manipulation
 
->- Let's guide our way through the jQuery API Documentation by looking at the following image:
+>- Let's guide our way through the jQuery API Documentation by looking at the following images.
+>- On the left, you can see the main types of jQuery methods.
 
-![jQueryAPI.jpg](/juliehutchinson001/udacity_google_scholarship/blob/master/fend-animal-trading-cards-master/jQueryAPI.jpg?raw=true)
+![jQueryAPIMainPage.jpg](https://github.com/juliehutchinson001/udacity_google_scholarship/blob/master/fend-animal-trading-cards-master/jQueryMethods.jpg?raw=true)
+
+>- To modify the class attribute of an element, I'll select the methods pertaining classes, and the addClass() method seems appropriate:
+
+![jQueryAPI.jpg](https://github.com/juliehutchinson001/udacity_google_scholarship/blob/master/fend-animal-trading-cards-master/jQueryAPI.jpg?raw=true)
 
 >- This is the information of a method called addClass().
 
