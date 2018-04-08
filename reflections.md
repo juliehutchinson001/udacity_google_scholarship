@@ -1360,11 +1360,13 @@ let idSelector = $("#Cameron").siblings();
 >>> ['#Max'];
 ```
 
+# jQuery documentation to perform DOM Manipulation
 
+>- Let's guide our way through the jQuery API Documentation by looking at the following image:
 
+<img src="/juliehutchinson001/udacity_google_scholarship/blob/master/fend-animal-trading-cards-master/jQueryAPI.jpg?raw=true" alt="jQueryAPI.jpg" style="width: 600px; height: 600px">
 
-
-
+>- This is the information of a method called addClass().
 
 
 
