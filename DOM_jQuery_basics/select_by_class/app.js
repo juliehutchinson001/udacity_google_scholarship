@@ -7,4 +7,6 @@ elements of class 'article-item' on the page!
 let articleItems;
 
 // your code goes here!
-articleItems = 
+articleItems = $('.article-item');
+
+console.log(articleItems);
