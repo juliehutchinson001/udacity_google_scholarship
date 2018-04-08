@@ -7,4 +7,6 @@ id 'nav' on the page!
 let nav;
 
 // your code goes here!
-nav = 
+nav = $('#nav');
+
+console.log(nav);
