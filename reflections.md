@@ -1166,6 +1166,8 @@ $('.class');
 $('#id');
 ```
 
+>- Unlike tag and classes selectors, id's selectors are specific to a single element in the DOM, so we should expect a jQuery collection with only one DOM element returned.
+
 ### Important jQuery Selectors
 
 <table>
