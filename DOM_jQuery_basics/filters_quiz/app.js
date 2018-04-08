@@ -15,6 +15,9 @@ h1 = articleList.siblings('h1');
 
 // Your code goes here!
 kids = articleList.children();
+kids = articleList.find('*');
 
 // Your code goes here!
 parents = articleList.parents('div');
+
+console.log(h1, kids, parents);
