@@ -1431,8 +1431,9 @@ $("#item").addClass('blue');
 ### Quiz informational links
 >- <p> Toggle a Class selector method: <a href="http://api.jquery.com/toggleclass/">jQuery API documentation | .toggleClass()</a></p>
 >- <p> Next selector method: <a href="http://api.jquery.com/next/">jQuery API documentation | .next()</a></p>
+>- <p> Attribute selector method: <a href="http://api.jquery.com/attr/">jQuery API documentation | .attr()</a></p>
 
-### Game your way to mastery
+### Game your way to understanding this topics
 
 >- <p>Master Flexbox for free: <a href="https://geddski.teachable.com/p/flexbox-zombies">Flexbox Zombie's game</a></p>
 >- <p>Master CSS Grid for free: <a href="https://cssgridgarden.com/">CSS GridGarden</a></p>
@@ -1443,6 +1444,9 @@ $("#item").addClass('blue');
 >- <p>practice writing Sass code in your browser: <a href="https://www.sassmeister.com/">SassMeister</a></p>
 >- <p>postcss-cssnext features (the future of css): <a href="http://cssnext.io/playground/">CSSNext</a></p>
 >- <p>Learn how to CSS selectors: <a href="http://flukeout.github.io/">CSS Diner</a></p>
+>- <p>How many CSS3 properties can you type in 5 minutes?: <a href="https://codepen.io/lonekorean/pen/bfAjD">Codepen | CSS property Game</a></p>
+>- <p>Guess the CSS property: <a href="https://codepen.io/goranp/pen/gLoZzE?q=css%20property&order=popularity&depth=everything&show_forks=false">Codepen | Hangman CSS Properties</a></p>
+>- <p>Test of Writing Mode + CSS Grid: <a href="https://codepen.io/juliehutchinson001/pen/NYeRRB">Text orientation + Grid | Codepen</a></p>
 >- <p>Practice your knowledge in a language (supports diff languages Python3, Go, Javascript, Java ...): <a href="https://www.codingame.com/start">CodinGame</a></p>
 
 # Disclaimer
