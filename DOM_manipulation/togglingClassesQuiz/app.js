@@ -9,3 +9,9 @@ You must use jQuery's toggleClass method!
 let article2, article3;
 
 // your code goes here!
+article2 = $('.featured');
+article3 = article2.next();
+
+article2.toggleClass('featured');
+article3.toggleClass('featured');
+
