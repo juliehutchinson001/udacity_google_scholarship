@@ -1364,17 +1364,21 @@ let idSelector = $("#Cameron").siblings();
 
 >- Let's guide our way through the jQuery API Documentation by looking at the following images.
 >- On the left, you can see the main types of jQuery methods.
+---
 
 ![jQueryAPIMainPage.jpg](https://github.com/juliehutchinson001/udacity_google_scholarship/blob/master/fend-animal-trading-cards-master/jQueryMethods.jpg?raw=true)
 
+---
 >- To modify the class attribute of an element, I'll select the methods pertaining Attributes, and the addClass() method seems appropriate.
 >- This is the information of a method called __addClass()__. This method adds a specified class to a DOM element.
 >- The black box shows the _main function signature_, which tells you what to pass in as an argument to this method to get it to work properly.
 >- Inside the black box, you can find a description of the method and different ways of using it.
 >- And then further below, you can find examples that utilize this method.
+---
 
 ![jQueryAPI.jpg](https://github.com/juliehutchinson001/udacity_google_scholarship/blob/master/fend-animal-trading-cards-master/jQueryAPI.jpg?raw=true)
 
+---
 >- An example of the __.addClass()__ method:
 
 ```
@@ -1409,16 +1413,37 @@ $("#item").addClass('blue');
 
 
 # Links of interest!
+
+### Learning Courses
 >- <p>Web deployment platform: <a href="https://www.udacity.com/course/deploying-applications-with-heroku--ud272">Deploying apps with Heroku | Udacity</a></p>
 >- <p>ECMAScript 6, or ES6's updates to JS language: <a href="https://www.udacity.com/course/es6-javascript-improved--ud356">ES6 - JavaScript Improved | Udacity</a></p>
 >- <p> Collection of JS utilities for the intermediate to advanced JS developer: <a href="https://mootools.net/">Mootools</a></p>
 >- <p> Make asynchronous requests in JavaScript: <a href="https://www.udacity.com/course/intro-to-ajax--ud110">Intro to Ajax | Udacity</a></p>
 >- <p> Learn how to handle asynchronous work in JavaScript: <a href="https://www.udacity.com/course/javascript-promises--ud898">Javascript promises | Udacity</a></p>
+
+### jQuery
 >- <p> A fast, small, and feature-rich JavaScript library: <a href="http://api.jquery.com/">jQuery</a></p>
 >- <p> List of methods to modify DOM's elements's attributes: <a href="http://api.jquery.com/category/attributes/">jQuery API documentation | Attributes</a></p>
 >- <p> List of Traversing the DOM Tree methods: <a href="http://api.jquery.com/category/traversing/">jQuery API documentation | Traversing</a></p>
 >- <p> List of filtering elements in the DOM Tree methods: <a href="http://api.jquery.com/category/traversing/filtering/">jQuery API documentation | Filtering</a></p>
 >- <p> List of selectors methods: <a href="http://api.jquery.com/category/selectors/">jQuery API documentation | Selectors</a></p>
+
+### Quiz informational links
+>- <p> Toggle a Class selector method: <a href="http://api.jquery.com/toggleclass/">jQuery API documentation | .toggleClass()</a></p>
+>- <p> Next selector method: <a href="http://api.jquery.com/next/">jQuery API documentation | .next()</a></p>
+
+### Game your way to mastery
+
+>- <p>Master Flexbox for free: <a href="https://geddski.teachable.com/p/flexbox-zombies">Flexbox Zombie's game</a></p>
+>- <p>Master CSS Grid for free: <a href="https://cssgridgarden.com/">CSS GridGarden</a></p>
+>- <p>Master Flexbox for free: <a href="http://flexboxfroggy.com/">Flexbox Froggy's game</a></p>
+>- <p>More Flexbox practice for free: <a href="http://www.flexboxdefense.com/">Flexbox Defense</a></p>
+>- <p>This site provide samples of how to do css: <a href="http://enjoycss.com/">Enjoy CSS</a></p>
+>- <p>Unfolding the box model: <a href="https://rupl.github.io/unfold/">CSS 3D Transforms</a></p>
+>- <p>practice writing Sass code in your browser: <a href="https://www.sassmeister.com/">SassMeister</a></p>
+>- <p>postcss-cssnext features (the future of css): <a href="http://cssnext.io/playground/">CSSNext</a></p>
+>- <p>Learn how to CSS selectors: <a href="http://flukeout.github.io/">CSS Diner</a></p>
+>- <p>Practice your knowledge in a language (supports diff languages Python3, Go, Javascript, Java ...): <a href="https://www.codingame.com/start">CodinGame</a></p>
 
 # Disclaimer
 
