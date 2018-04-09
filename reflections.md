@@ -1123,6 +1123,8 @@ let parent = document.querySelector('#parent');
 parent.appendChild(div);
 `
 
+>- The DOM consists of every element on the page, laid out in a hierarchical way that reflects the way the HTML document is ordered. Just as with an HTML document, elements in the DOM can have parents, children, and siblings.
+>- An HTML document is structured according to the Document Object Model, or DOM. It's by interacting with the DOM that jQuery is able to access and modify HTML.
 >- But with jQuery, all of those steps are simplified to a one line of code:
 `
 $('#parent').append("<div>Hello Julie</div>");
@@ -1435,9 +1437,10 @@ $("#item").addClass('blue');
 
 ### Game your way to understanding this topics
 
->- <p>Master Flexbox for free: <a href="https://geddski.teachable.com/p/flexbox-zombies">Flexbox Zombie's game</a></p>
->- <p>Master CSS Grid for free: <a href="https://cssgridgarden.com/">CSS GridGarden</a></p>
->- <p>Master Flexbox for free: <a href="http://flexboxfroggy.com/">Flexbox Froggy's game</a></p>
+>- <p>Great Flexbox game for free: <a href="https://geddski.teachable.com/p/flexbox-zombies">Flexbox Zombie's game</a></p>
+>- <p>Learn Regular expressions by playing: <a href="http://darevay.com/regenemies/">Regenemies game</a></p>
+>- <p>Practice CSS Grid for free: <a href="https://cssgridgarden.com/">CSS GridGarden</a></p>
+>- <p>Improve your Flexbox skills for free: <a href="http://flexboxfroggy.com/">Flexbox Froggy's game</a></p>
 >- <p>More Flexbox practice for free: <a href="http://www.flexboxdefense.com/">Flexbox Defense</a></p>
 >- <p>This site provide samples of how to do css: <a href="http://enjoycss.com/">Enjoy CSS</a></p>
 >- <p>Unfolding the box model: <a href="https://rupl.github.io/unfold/">CSS 3D Transforms</a></p>
@@ -1449,7 +1452,7 @@ $("#item").addClass('blue');
 >- <p>Test of Writing Mode + CSS Grid: <a href="https://codepen.io/juliehutchinson001/pen/NYeRRB">Text orientation + Grid | Codepen</a></p>
 >- <p>Practice your knowledge in a language (supports diff languages Python3, Go, Javascript, Java ...): <a href="https://www.codingame.com/start">CodinGame</a></p>
 
-# Disclaimer
+# To the Author
 
 None of the content expressed in this summary belongs to me, it was originally provided by Udacity and instructors. I want to thank the Udacity and Google staffing for being able to share such a vast range of knowledge with us students. 
 
