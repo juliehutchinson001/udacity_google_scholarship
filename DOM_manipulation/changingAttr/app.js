@@ -19,3 +19,11 @@ let navList;
 // your code goes here!
 navList = $('a:first');
 navList.attr("href", "#1");
+
+/* ---------------------------------------------------- */ 
+// Start with this variable!
+let navList;
+
+// your code goes here!
+navList = $('a');
+navList.attr("href", "#1");
