@@ -10,6 +10,12 @@ let navList;
 
 // your code goes here!
 navList = $('li:first-child');
-navList.attr("[href]", "#1");
+navList.attr("href", "#1");
 
 /* ---------------------------------------------------- */ 
+// Start with this variable!
+let navList;
+
+// your code goes here!
+navList = $('a:first');
+navList.attr("href", "#1");
