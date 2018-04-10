@@ -1396,6 +1396,8 @@ $("#item").addClass('blue');
 
 >- Square brackets in the parameter mean that the parameter is optional for the method to work properly.
 
+>- __side-effect:__ be careful though, because modifying css with Javascript, therefore jQuery as well, means adding inline css to the html document, or in other words, jQuery modifies the element's style property. So this isn't the best way to modify/create a website, but sometimes it is needed.
+
 
 
 
