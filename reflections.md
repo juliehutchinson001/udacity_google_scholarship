@@ -1431,9 +1431,11 @@ $("#item").addClass('blue');
 >- <p> List of selectors methods: <a href="http://api.jquery.com/category/selectors/">jQuery API documentation | Selectors</a></p>
 
 ### Quiz informational links
+
 >- <p> Toggle a Class selector method: <a href="http://api.jquery.com/toggleclass/">jQuery API documentation | .toggleClass()</a></p>
 >- <p> Next selector method: <a href="http://api.jquery.com/next/">jQuery API documentation | .next()</a></p>
 >- <p> Attribute selector method: <a href="http://api.jquery.com/attr/">jQuery API documentation | .attr()</a></p>
+>- <p> CSS selector method: <a href="http://api.jquery.com/css/">jQuery API documentation | .css()</a></p>
 
 ### Game your way to understanding this topics
 
