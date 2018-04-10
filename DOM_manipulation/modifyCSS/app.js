@@ -9,4 +9,4 @@
 var articleItems;
 
 // your code goes here!
-articleItems = 
+articleItems = $('.article-item').css('font-size', '20px');
