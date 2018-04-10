@@ -1205,12 +1205,12 @@ $('#id');
     </tr>
     <tr>
         <td>:first</td>
-        <td>$("h1:fist")</td>
+        <td>$("h1:first")</td>
         <td>first < "h1" > element</td>
     </tr>
     <tr>
         <td>:first-child</td>
-        <td>$("b:fist-child")</td>
+        <td>$("b:first-child")</td>
         <td>all < 'b' > that are the 1st child of their parent</td>
     </tr>
     <tr>

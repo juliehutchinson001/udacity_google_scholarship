@@ -9,5 +9,7 @@
 let navList;
 
 // your code goes here!
-navList = $('ul li:eq(0)');
+navList = $('li:first-child');
 navList.attr("[href]", "#1");
+
+/* ---------------------------------------------------- */ 
