@@ -7,3 +7,7 @@ For this quiz, use jQuery to set up an event listener. Your event listener must:
         b. add the `success` class to the body
 */
 
+$('#my-button').on('click', function() {
+    $('button').remove();
+    $('body').addClass('success');
+});
