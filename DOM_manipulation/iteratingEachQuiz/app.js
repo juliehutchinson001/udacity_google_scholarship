@@ -14,3 +14,21 @@ $('.article-item > p').each (function(ind) {
     
     $(this).append("( " + chars + " characters long)");
 });
+
+/* --------------------------------------------------- */
+
+// UDACITY's code goes here!
+
+function numberAdder() {
+    let text;
+    let number;
+
+    text = $(this).text();
+
+    number = text.length;
+
+    $(this).text(text + " " + number);
+
+}
+
+$('p').each(numberAdder);
