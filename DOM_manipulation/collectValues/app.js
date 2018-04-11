@@ -7,10 +7,11 @@
  * For more on events, check the instructor notes.
  */
 
-
 $('#input').on('change', function() {
-    var val;
+    let val;
+    let h1;
     
     // Your code goes here!
-    val = 
+    val = $('#input').val();
+    h1 = $('.articles').children('h1').text(val);
 });
