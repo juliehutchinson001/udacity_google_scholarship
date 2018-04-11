@@ -1443,15 +1443,17 @@ $("#item").addClass('blue');
 >- <p> HTML selector method: <a href="http://api.jquery.com/html/">jQuery API documentation | .html()</a></p>
 >- <p> text selector method: <a href="http://api.jquery.com/text/">jQuery API documentation | .text()</a></p>
 >- <p> value selector method: <a href="http://api.jquery.com/css/">jQuery API documentation | .val()</a></p>
+>- <p> Prepend selector method: <a href="http://api.jquery.com/prepend/">jQuery API documentation | .prepend()</a></p>
+>- <p> Append selector method: <a href="http://api.jquery.com/append/">jQuery API documentation | .append()</a></p>
+>- <p> Insert after selector method: <a href="http://api.jquery.com/insertAfter/">jQuery API documentation | .insertAfter()</a></p>
+>- <p> Insert before selector method: <a href="http://api.jquery.com/insertBefore/">jQuery API documentation | .insertBefore()</a></p>
 >- <p> remove selector method: <a href="http://api.jquery.com/remove/">jQuery API documentation | .remove()</a></p>
+>- <p> Each selector method: <a href="http://api.jquery.com/each/">jQuery API documentation | .each()</a></p>
 >- <p> The DOM element that initiated an event: <a href="https://api.jquery.com/event.target/">jQuery API documentation | event.target</a></p>
 >- <p> To create a new event object: <a href="https://api.jquery.com/category/events/event-object/">jQuery API documentation | Event Object</a></p>
 >- <p> Definition of the UI Events (including the DOM Events): <a href="https://www.w3.org/TR/DOM-Level-3-Events/">W3C spec UI Events</a></p>
 
->- <p> Next selector method: <a href="http://api.jquery.com/next/">jQuery API documentation | .next()</a></p>
->- <p> Next selector method: <a href="http://api.jquery.com/next/">jQuery API documentation | .next()</a></p>
->- <p> CSS selector method: <a href="http://api.jquery.com/css/">jQuery API documentation | .css()</a></p>
->- <p> CSS selector method: <a href="http://api.jquery.com/css/">jQuery API documentation | .css()</a></p>
+>- <p> How to monitor events on web browser tools for web developers: <a href="https://developers.google.com/web/tools/chrome-devtools/console/events?hl=en#monitor-events">Monitor Events</a></p>
 
 ### Game your way to understanding this topics
 
