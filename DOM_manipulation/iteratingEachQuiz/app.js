@@ -23,12 +23,13 @@ function numberAdder() {
     let text;
     let number;
 
-    text = $(this).text();
+    text = $(this).text(); //this function finds the text
 
-    number = text.length;
+    number = text.length; //this finds the length of the text
 
-    $(this).text(text + " " + number);
+    //this changes the element to the same text + ' ' + total length
+    $(this).text(text + " " + number); 
 
 }
 
-$('p').each(numberAdder);
+$('p').each(numberAdder); //this is iterating through all of the p tags
