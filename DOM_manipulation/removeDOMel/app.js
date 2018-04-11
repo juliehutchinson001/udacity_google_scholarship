@@ -24,3 +24,4 @@ articleItems = $('.article-list')
 ul = articleItems.find('ul');
 
 ul.remove(); //a selector can be passed to remove() method
+//ul.remove('.bold'); 
