@@ -9,8 +9,8 @@
  */
 
 // Your code goes here!
-
-
-
-
-
+$('.article-item > p').each (function(ind) {
+    let chars = $(this).text().length;
+    
+    $(this).append("( " + chars + " characters long)");
+});
