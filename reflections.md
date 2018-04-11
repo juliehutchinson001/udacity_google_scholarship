@@ -1424,6 +1424,7 @@ $("#item").addClass('blue');
 >- <p> Collection of JS utilities for the intermediate to advanced JS developer: <a href="https://mootools.net/">Mootools</a></p>
 >- <p> Make asynchronous requests in JavaScript: <a href="https://www.udacity.com/course/intro-to-ajax--ud110">Intro to Ajax | Udacity</a></p>
 >- <p> Learn how to handle asynchronous work in JavaScript: <a href="https://www.udacity.com/course/javascript-promises--ud898">Javascript promises | Udacity</a></p>
+>- <p> Full Stack Curriculum: <a href="https://www.theodinproject.com/">The Odin Project</a></p>
 
 ### jQuery
 >- <p> A fast, small, and feature-rich JavaScript library: <a href="http://api.jquery.com/">jQuery</a></p>
@@ -1434,9 +1435,22 @@ $("#item").addClass('blue');
 
 ### Quiz informational links
 
+>- <p> Event methods used with jQuery: <a href="http://api.jquery.com/category/events/">jQuery API documentation | Events</a></p>
 >- <p> Toggle a Class selector method: <a href="http://api.jquery.com/toggleclass/">jQuery API documentation | .toggleClass()</a></p>
 >- <p> Next selector method: <a href="http://api.jquery.com/next/">jQuery API documentation | .next()</a></p>
 >- <p> Attribute selector method: <a href="http://api.jquery.com/attr/">jQuery API documentation | .attr()</a></p>
+>- <p> CSS selector method: <a href="http://api.jquery.com/css/">jQuery API documentation | .css()</a></p>
+>- <p> HTML selector method: <a href="http://api.jquery.com/html/">jQuery API documentation | .html()</a></p>
+>- <p> text selector method: <a href="http://api.jquery.com/text/">jQuery API documentation | .text()</a></p>
+>- <p> value selector method: <a href="http://api.jquery.com/css/">jQuery API documentation | .val()</a></p>
+>- <p> remove selector method: <a href="http://api.jquery.com/remove/">jQuery API documentation | .remove()</a></p>
+>- <p> The DOM element that initiated an event: <a href="https://api.jquery.com/event.target/">jQuery API documentation | event.target</a></p>
+>- <p> To create a new event object: <a href="https://api.jquery.com/category/events/event-object/">jQuery API documentation | Event Object</a></p>
+>- <p> Definition of the UI Events (including the DOM Events): <a href="https://www.w3.org/TR/DOM-Level-3-Events/">W3C spec UI Events</a></p>
+
+>- <p> Next selector method: <a href="http://api.jquery.com/next/">jQuery API documentation | .next()</a></p>
+>- <p> Next selector method: <a href="http://api.jquery.com/next/">jQuery API documentation | .next()</a></p>
+>- <p> CSS selector method: <a href="http://api.jquery.com/css/">jQuery API documentation | .css()</a></p>
 >- <p> CSS selector method: <a href="http://api.jquery.com/css/">jQuery API documentation | .css()</a></p>
 
 ### Game your way to understanding this topics
