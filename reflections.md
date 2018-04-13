@@ -1452,6 +1452,7 @@ $("#item").addClass('blue');
 >- <p> The DOM element that initiated an event: <a href="https://api.jquery.com/event.target/">jQuery API documentation | event.target</a></p>
 >- <p> To create a new event object: <a href="https://api.jquery.com/category/events/event-object/">jQuery API documentation | Event Object</a></p>
 >- <p> Definition of the UI Events (including the DOM Events): <a href="https://www.w3.org/TR/DOM-Level-3-Events/">W3C spec UI Events</a></p>
+>- <p> Understanding Event Delegations: <a href="https://learn.jquery.com/events/event-delegation/">jQuery API documentation | Event Delegation</a></p>
 
 >- <p> How to monitor events on web browser tools for web developers: <a href="https://developers.google.com/web/tools/chrome-devtools/console/events?hl=en#monitor-events">Monitor Events</a></p>
 
