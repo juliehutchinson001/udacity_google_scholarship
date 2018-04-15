@@ -1398,6 +1398,21 @@ $("#item").addClass('blue');
 
 >- __side-effect:__ be careful though, because modifying css with Javascript, therefore jQuery as well, means adding inline css to the html document, or in other words, jQuery modifies the element's style property. So this isn't the best way to modify/create a website, but sometimes it is needed.
 
+# Pulling html and text
+
+>- But not everything is bad news! with jQuery you are able to pull data in between the html tags.
+>- So, if you desire to change the content of an html tag that contains text, you can do so with the methods `.html()` or `.text()`.
+>- In the following example, I am selecting the `id="flyup-homepage"` from the udacity website, if you run the `.html()` on the selected element, you'll notice on the console that the html inside of the id gets rendered including the html tags, classes, and attributes:
+
+```
+$('#flyup-homepage').html()
+
+>>> <div style="display:inline-block;">
+      <div class="h4 text-inverse"  style="margin: 2px 5px;">Nanodegrees</div>
+      <span>Credentials by industry to advance your career. <a> Learn more!</a></span>
+    </div>
+```
+
 
 
 
