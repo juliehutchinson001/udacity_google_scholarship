@@ -1422,8 +1422,22 @@ $('#flyup-homepage').text()
     Credentials by industry to advance your career. Learn more!
 ```
 
+## Adding DOM Elements
 
+>- Adding elements to the DOM using vanilla Javascript can be confusing. First, you have to create a DOM node, add data to it, find a parent for it, and then finally add that node as a child to that parent. Each step happens independently. For example:
 
+```
+let div = document.createNode('div');
+
+div.innerHTML = "Hello You!";
+
+let parent = document.querySelector('#parent');
+
+parent appendChild(div);
+
+```
+
+With jQuery, you can create new DOM nodes and simultaneously add them to the document with one simple method. The methods `.append()`, `.prepend()`, `.insertBefore()` and `.insertAfter()` give you 4 unique posibilities to insert a DOM element in different places.
 
 
 
