@@ -1398,7 +1398,7 @@ $("#item").addClass('blue');
 
 >- __side-effect:__ be careful though, because modifying css with Javascript, therefore jQuery as well, means adding inline css to the html document, or in other words, jQuery modifies the element's style property. So this isn't the best way to modify/create a website, but sometimes it is needed.
 
-# Pulling html and text
+## Pulling html and text
 
 >- But not everything is bad news! with jQuery you are able to pull data in between the html tags.
 >- So, if you desire to change the content of an html tag that contains text, you can do so with the methods `.html()` or `.text()`.
@@ -1413,7 +1413,14 @@ $('#flyup-homepage').html()
     </div>
 ```
 
+>- But if you run `.text()` on a selection, you'll see that jQuery has stripped out all of the html tags, and only return the text contained within 
 
+```
+$('#flyup-homepage').text()
+
+>>> Nanodegrees
+    Credentials by industry to advance your career. Learn more!
+```
 
 
 
@@ -1450,14 +1457,14 @@ $('#flyup-homepage').html()
 
 ### Quiz informational links
 
->- <p> Event methods used with jQuery: <a href="http://api.jquery.com/category/events/">jQuery API documentation | Events</a></p>
 >- <p> Toggle a Class selector method: <a href="http://api.jquery.com/toggleclass/">jQuery API documentation | .toggleClass()</a></p>
->- <p> Next selector method: <a href="http://api.jquery.com/next/">jQuery API documentation | .next()</a></p>
 >- <p> Attribute selector method: <a href="http://api.jquery.com/attr/">jQuery API documentation | .attr()</a></p>
 >- <p> CSS selector method: <a href="http://api.jquery.com/css/">jQuery API documentation | .css()</a></p>
 >- <p> HTML selector method: <a href="http://api.jquery.com/html/">jQuery API documentation | .html()</a></p>
 >- <p> text selector method: <a href="http://api.jquery.com/text/">jQuery API documentation | .text()</a></p>
 >- <p> value selector method: <a href="http://api.jquery.com/css/">jQuery API documentation | .val()</a></p>
+>- <p> Event methods used with jQuery: <a href="http://api.jquery.com/category/events/">jQuery API documentation | Events</a></p>
+>- <p> Next selector method: <a href="http://api.jquery.com/next/">jQuery API documentation | .next()</a></p>
 >- <p> Prepend selector method: <a href="http://api.jquery.com/prepend/">jQuery API documentation | .prepend()</a></p>
 >- <p> Append selector method: <a href="http://api.jquery.com/append/">jQuery API documentation | .append()</a></p>
 >- <p> Insert after selector method: <a href="http://api.jquery.com/insertAfter/">jQuery API documentation | .insertAfter()</a></p>
