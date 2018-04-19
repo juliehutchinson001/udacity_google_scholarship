@@ -1492,7 +1492,13 @@ $(function() {
 
 >- Events give you the power to setup automatic responses based on what your users do when they're on your page
 
+>- Google Chrome devTools has a built-in function, the __monitorEvents__ function, that allow you to take a peek of the events that are running on the background as they are taking place.
 
+```
+monitorEvents(elementToWatch);
+```
+
+>- You pass to the function the element on the page that you want it to watch for events and log them out on the console.
 
 
 
