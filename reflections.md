@@ -1479,17 +1479,18 @@ $(someFunction)
 or
 
 ```
-$(function(){
-    // Do interesting things
-})
+$(function() {
+    $('img').attr('src', 'http://placekitten.it/350/150');
+});
 ```
 
 >- Now, you can include your script in the `<head>` and it won't run until the DOM has been built and the elements that you want to manipulate are on the page.
 
+>- The anonymous function changes the src of the one img on the page to the URL provided. (Remember, $('img') grabs all of the images on the page, so this is a very bad selector. It works in this case because there's only one <img>, but normally you should use a much more specific selector.)
 
+# Event Listening with jQuery
 
-
-
+>- Events give you the power to setup automatic responses based on what your users do when they're on your page
 
 
 
