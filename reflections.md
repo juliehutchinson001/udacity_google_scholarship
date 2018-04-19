@@ -1439,7 +1439,31 @@ parent appendChild(div);
 
 With jQuery, you can create new DOM nodes and simultaneously add them to the document with one simple method. The methods `.append()`, `.prepend()`, `.insertBefore()` and `.insertAfter()` give you 4 unique posibilities to insert a DOM element in different places.
 
-## `.append()`, `.prepend()`, `.insertBefore()` and `.insertAfter()`
+## Appending Child Elements
+
+>- `.append()`, `.prepend()`, these add children to an element.
+
+```
+let firstArticleItem;
+
+firstArticleItem = $('.article-item').first();
+
+firstArticleItem.append('<img src="http://placepuppy.it">');
+
+firstArticleItem.prepend('<img src="http://placepuppy.it">');
+```
+
+>- `.append()` adds a new element as the last child of the selected item, while `.prepend()` adds the new element as the first child of the selected item.
+
+
+
+
+
+
+
+
+
+
 
 
 
