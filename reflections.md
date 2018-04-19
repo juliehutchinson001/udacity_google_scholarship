@@ -1455,6 +1455,8 @@ firstArticleItem.prepend('<img src="http://placepuppy.it">');
 
 >- `.append()` adds a new element as the last child of the selected item, while `.prepend()` adds the new element as the first child of the selected item.
 
+>- To insert a sibling of an element, `.insertBefore()` or `.insertAfter()`, where the first one adds an element before the selected oneand the second one adds it after.
+
 
 
 
