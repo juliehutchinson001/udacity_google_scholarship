@@ -1496,10 +1496,20 @@ $(function() {
 
 ```
 monitorEvents(elementToWatch);
+
+>>> keydown > KeyboardEvent {}
+    keyup > KeyboardEvent {}
+    keypress > KeyboardEvent {}
+    textInput > TextEvent {}
 ```
 
->- You pass to the function the element on the page that you want it to watch for events and log them out on the console.
+>- You pass to the function the element on the page that you want it to watch for events and log them out on the console. As you can see, using the monitorEvents function, you can observe what the browser is doing when you interact with the page elements in different ways.
 
+>- To stop getting this data just write this to console:
+
+```
+unmonitorEvents(elementToWatch);
+```
 
 
 
