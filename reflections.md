@@ -1511,7 +1511,21 @@ monitorEvents(elementToWatch);
 unmonitorEvents(elementToWatch);
 ```
 
+## Anatomy of a jQuery Event Listener
 
+>- There are three items you need in order to listen for events and react to them.
+
+>>- the target element to listen to
+>>- the event we want to react to
+>>- the actions to take in response
+
+>- In the following example, you can see how the steps are applied, the `$('#my-input')` is the target element, the `.on()` method is the primary way jQuery uses to set up event listeners. The 1st argument to the on method is the event I want to listen for. Events such as keypress, click, change, mouseover and so on. An finally, a comma separates the event from a callback function with the actions I want to happen in response.
+
+```
+$('#my-input').on('keypress', () => {
+  $('body').css('background-color', '#2727FF');
+});
+```
 
 
 
