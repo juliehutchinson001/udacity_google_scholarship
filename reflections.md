@@ -1635,6 +1635,11 @@ $( '#rooms' ).on( 'click', 'li', function() {
 
 # Links of interest!
 
+### Career Webinars Offered by Udacity
+>- <p>Webinar by Trinh: <a href="http://youtu.be/c9N-kxUVWbA">Roadmapping and Career Support</a></p>
+>- <p>Webinar by Kathleen: <a href="http://youtu.be/7qDo3l_WMJQ">Crafting a Killer resume</a></p>
+>- <p>Webinar by Lyla Fujiwara: <a href="http://youtu.be/5GivsxeVq1g">A Day in the Life of a Developer with a Googler</a></p>
+
 ### Learning Courses
 >- <p>Web deployment platform: <a href="https://www.udacity.com/course/deploying-applications-with-heroku--ud272">Deploying apps with Heroku | Udacity</a></p>
 >- <p>ECMAScript 6, or ES6's updates to JS language: <a href="https://www.udacity.com/course/es6-javascript-improved--ud356">ES6 - JavaScript Improved | Udacity</a></p>
