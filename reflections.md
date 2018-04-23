@@ -1537,6 +1537,8 @@ $('#my-input').on('keypress', () => {
 $('article').on('click', (evt) => {
     console.log(evt);
 });
+
+>>> MouseEvent {isTrusted: true, screenX: 898, screenY: 146, clientX: 43, clientY: 26, …}
 ```
 
 >- You should notice a target property. The target property holds the page element that is the target of the event. This can be extremely useful if an event listener has been set up for a number of elements:
@@ -1567,11 +1569,17 @@ $('#myAnchor').on( 'click', (evt) => {
 ```
 
 >- In the code above, the `evt.preventDefault();` line instructs the browser not to perform the default action.
->- Other uses include:
+>- jQuery has a convenience method that allows in some of the event listeners, to skip the on method by just using the event itself. Other uses include:
 
 >>- event.keyCode to learn what key was pressed - invaluable if you need to listen for a specific key
 >>- event.pageX and event.pageY to know where on the page the click occurred - helpful for analytics tracking
 >>- event.type to find what event happened - useful if listening to a target for multiple events
+
+```
+$('input').keypress(() => { //... });
+```
+
+
 
 
 
