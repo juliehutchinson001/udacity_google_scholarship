@@ -1633,15 +1633,6 @@ $( '#rooms' ).on( 'click', 'li', function() {
 });
 ```
 
-
-
-
-
-
-
-
-
-
 # Links of interest!
 
 ### Learning Courses
