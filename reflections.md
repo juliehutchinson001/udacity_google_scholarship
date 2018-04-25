@@ -6,11 +6,18 @@ The following content is the compilation of the entire UDACITY SCHOLARSHIP PRE-S
 
 >* Browsers look for this doctype declaration to determine which rendering mode to use to render the site. Generally, newer sites follow standard HTML specifications. The current standard HTML specification is called HTML5.
 
->* `<head>` Describes meta information about the site, such as the title, and provides links to scripts and stylesheets the site needs to render and behave correctly.
+>* `<head>` Describes meta information about the site, such as the title, and provides links to scripts and stylesheets the site needs to render and behave correctly. This tag is responsible for:
+
+>>* the document’s title (the text that shows up in browser tabs when a user visits the page): `<title>About Me</title>`.
+>>* associated CSS files (for style): `<link rel="stylesheet" type="text/css" href="style.css">`.
+>>* associated JavaScript files (multipurpose scripts to change rendering and behavior): `<script src="animations.js"></script>`.
+>>* the charset being used (the text's encoding): `<meta charset="utf-8">`. It will allow your website to display any Unicode character.
+>>* keywords, authors, and descriptions (often useful for SEO): `<meta name="description" content="This is what my website is all about!">`.
+>>* ... and more!
 
 >* `<body>` Describes the actual content of the site that users will see.
 
->* To open the web development tools on a Mac: Command + Option + i
+>* To open the web development tools on a Mac: __Command + Option + i__
 
 >* apply `<style>` tag to apply css to a page.
 
@@ -28,7 +35,7 @@ The following content is the compilation of the entire UDACITY SCHOLARSHIP PRE-S
 >- `<details>` - Defines additional details
 >- `<summary>` - Defines a heading for the `<details>` element
 
-1. The outermost sectioning element is always the <body></body> tag.
+1. The outermost sectioning element is always the `<body></body>` tag.
 
 2. Sections in HTML5 can be nested.
 
@@ -38,9 +45,9 @@ The following content is the compilation of the entire UDACITY SCHOLARSHIP PRE-S
 
 5. It’s always the first heading element (let it be h1 or a lower rank heading tag) that defines the heading of the given section. The following heading tags inside the same section need to be relative to this. (If the first heading is an h3 inside a sectioning element, don’t put an h3 after that.)
 
-6. The sections defined by the <nav></nav>, and the <aside></aside> tags don’t belong to the main outline of the HTML document, they are usually not rendered initially by assistive technologies.
+6. The sections defined by the `<nav></nav>`, and the `<aside></aside>` tags don’t belong to the main outline of the HTML document, they are usually not rendered initially by assistive technologies.
 
-7. Each section (body, section, article, aside, nav) can have their own <header></header> and <footer></footer> tags, that defines the header (such as logo, author’s name, dates, meta info, etc.) and the footer (copyright, notes, links, etc.) of that section.
+7. Each section (body, section, article, aside, nav) can have their own `<header></header>` and `<footer></footer>` tags, that defines the header (such as logo, author’s name, dates, meta info, etc.) and the footer (copyright, notes, links, etc.) of that section.
 
 ---
   1. What CSS property is used to __italicize__ text? font-style
