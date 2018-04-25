@@ -57,7 +57,7 @@ The following content is the compilation of the entire UDACITY SCHOLARSHIP PRE-S
 
   5. Which HTML elements match the given CSS statement?
 
-```
+```html
   .right {
        text-align: right;
   }
@@ -80,11 +80,11 @@ The following content is the compilation of the entire UDACITY SCHOLARSHIP PRE-S
 
 >- To link your stylesheet to your html file, you'll need to create a `<link>` to your stylesheet in your HTML.
 
-```
+```html
 <link href="path-to-stylesheet/stylesheet.css" rel="stylesheet">
 ```
 
->- The href attribute specifies the path to the linked resource and the rel attribute names the relationship between the resource and your document.
+>- The __href attribute__ specifies the path to the linked resource and the rel attribute names the relationship between the resource and your document.
 
 ```
 <head>
@@ -283,6 +283,25 @@ The following content is the compilation of the entire UDACITY SCHOLARSHIP PRE-S
         </td>
     </tr>
 </table>
+
+## A guide to paths
+
+### Local Paths
+
+>- Computers have folders (also called "directories"). Operating systems like Windows, Mac and Linux organize all of your files into a tree of directories called a file system. There's a top-most directory, often called the root, that contains all of the other directories. Within the root, there are files and directories. Within those directories are more files and more directories. And within those directories are even more files and directories, and so on.
+>- Every file has an address, which we call the "path." An absolute path is written in relation to the computer's root directory. 
+
+### External Paths
+
+>- The process of loading a website from a URL like https://www.udacity.com mimics opening an HTML file that you've written and saved to your computer. Every website starts with an HTML file. It just so happens that when you want to visit a website, the HTML file that you want to open lives on a different computer. The computer responsible for giving you a website's files is called a server.
+>- Pointing your browser to https://www.udacity.com sends a request to Udacity's server for the HTML file (and others) that your computer needs to load the Udacity website. You can think of udacity.com as the root path of Udacity's server (computer) that anyone can access (the reality of the situation is actually much more complicated but the general idea is true). Unlike your personal computer (for now!), Udacity's servers run software that expose files to the web, which means that they make them available to anyone who wants them. Servers have an external path that anyone can access and is the reason why the web works.
+>- Different websites are just different collections of files. Every website is really just a server (or many servers) with an external address, which we call a URL. Servers store files and send them to computers who request them (the requesting computers are called clients).
+>- There are different protocols for serving files, the most common of which on the web are HTTP and HTTPS. When you open a file on your own computer, you're using the file protocol. You don't need to know much more about protocols for now, but if you're interested in learning (a lot!) more about HTTP, check out Networking for Web Developers.
+
+### Relative Paths
+
+>- The relative path is similar to the absolute path, but it describes how to find a path to a file from a directory that is not the root directory. Like using the phrase "next door" to tell someone how to find the White House from the Eisenhower Executive Office, a relative path takes advantage of the location of one file to describe where another file can be found.
+>- Relative paths work the same for both local and external paths. Let's break down two examples of absolute paths to see how relative paths work.
 
 ## Conditionals
 
