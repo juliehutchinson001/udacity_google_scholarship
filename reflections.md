@@ -303,6 +303,30 @@ The following content is the compilation of the entire UDACITY SCHOLARSHIP PRE-S
 >- The relative path is similar to the absolute path, but it describes how to find a path to a file from a directory that is not the root directory. Like using the phrase "next door" to tell someone how to find the White House from the Eisenhower Executive Office, a relative path takes advantage of the location of one file to describe where another file can be found.
 >- Relative paths work the same for both local and external paths. Let's break down two examples of absolute paths to see how relative paths work.
 
+# Responsive Design
+
+## Setting the viewport
+
+>- The viewport defines the area of the screen that the browser can render content to. Display's pixel density is calculated by dividing the width against the pixel ratio. The browser reports the width in the number of DIPS (Device Independent Pixels) as opposed to the number of hardware pixels.
+
+>- DIP is a unit of measurement that relates pixels to real distance. The idea being that a device independent pixel will take up the same amount of space on a display regardless of the pixel density of the display. For example, if there are twice as many hardware pixels accross as there are pixels reported by the browser, the device's pixel must have a device pixel ratio of 2.
+
+>- By adding the meta viewport tag to the head element of the html document, we tell the site to match the screen's width in device independent pixels. This allows the page to reflow content to match the screen sizes, whether rendered on a small mobile device or on the laptop.
+
+```html
+
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+```
+
+>- CSS allows content to overflow its container. By setting relative measurements instead of absolute ones, this won't be a problem:
+
+```css
+<tag> #id .class img, embed, video, object{
+  max-width: 100%;
+}
+```
+
 ## Conditionals
 
 ### Logical Operators
@@ -1607,7 +1631,7 @@ $('input').keypress(() => { //... });
 
 ## Event Delegation
 
->-What about when the target doesn't exist yet? This can happen in a lot of situations. For example, if you have a list of items, and you want to listen to clicks on any of them, what happens if you add an extra list item after your page is done?
+>- What about when the target doesn't exist yet? This can happen in a lot of situations. For example, if you have a list of items, and you want to listen to clicks on any of them, what happens if you add an extra list item after your page is done?
 
 >- Be careful when setting up an event listener and then creating the target item afterwards. For example:
 
