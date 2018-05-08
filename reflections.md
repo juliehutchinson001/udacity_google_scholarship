@@ -313,6 +313,8 @@ The following content is the compilation of the entire UDACITY SCHOLARSHIP PRE-S
 
 >- By adding the meta viewport tag to the head element of the html document, we tell the site to match the screen's width in device independent pixels. This allows the page to reflow content to match the screen sizes, whether rendered on a small mobile device or on the laptop.
 
+>- the content property of the meta tag will first contain a width of the viewport that I want this page to be viewed 
+
 ```html
 
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -326,6 +328,41 @@ The following content is the compilation of the entire UDACITY SCHOLARSHIP PRE-S
   max-width: 100%;
 }
 ```
+
+# Basic Media Queries
+
+>- The following example is a stylesheet with a media query that applies only when the viewport is wider than 300px.
+
+```html
+
+<link rel="stylesheet" media="screen and (min-width: 300px)" href="pattern.css">
+
+```
+
+>- So in addition to the meta tag with the viewport, we add a link tag of a css stylesheet so that it only applies to viewports with those dimensions
+>- 
+>- 
+>- 
+>- 
+>- 
+>- 
+>- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Conditionals
 
