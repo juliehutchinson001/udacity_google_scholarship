@@ -340,6 +340,9 @@ The following content is the compilation of the entire UDACITY SCHOLARSHIP PRE-S
 ```
 
 >- So in addition to the meta tag with the viewport, we add a link tag of a css stylesheet so that it only applies to viewports with those dimensions
+
+## Media Queries Sintax
+
 >- 
 >- 
 >- 
