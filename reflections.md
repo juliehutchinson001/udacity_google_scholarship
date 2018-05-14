@@ -370,7 +370,9 @@ h1 {
 }
 ```
 
->- 
+>- Media queries can include these features: width, height, device-width, device-height, orientation, aspect-ratio, device-aspect-ratio, color, color-index, monochrome, resolution, scan, grid. Most of these features can be prefixed with min- or max-.
+>- The resolution feature is not supported by older devices, instead use device-pixel-ratio.
+>- Many smartphones and tablets will attempt to render the page as if it were on a desktop unless you provide a viewport meta-tag.
 >- 
 >- 
 >- 
