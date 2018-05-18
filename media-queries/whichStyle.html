@@ -8,3 +8,32 @@
  * - 600 pixels or wider, set the background color to blue
  * / -->
 
+ <!DOCTYPE html>
+ <html lang="en">
+   <head>
+     <title>min AND max-width Media Queries</title>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <style type="text/css">
+       h1 {
+         position: absolute;
+         text-align: center;
+         width: 100%;
+         font-size: 6em;
+         font-family: Roboto;
+         transition: all 0.5s;
+       }
+       @media screen and (min-width: 1px) and (max-width: 2px) {
+         /*
+         This seems like a good place for code... Make sure you change the breakpoints!
+         */
+       }
+     </style>
+   </head>
+   <body>
+     <div>
+       <h1>Media Queries</h1>
+       <p>Watch the background colors change!</p>
+     </div>
+   </body>
+ </html>
