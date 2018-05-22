@@ -473,7 +473,7 @@ if (1) {
 
 >- The ternary operator provides you with a shortcut alternative for writing lengthy if...else statements.
 
-```
+```javascript
 conditional ? (if condition is true) : (if condition is false)
 ```
 
