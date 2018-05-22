@@ -374,7 +374,10 @@ h1 {
 >- The resolution feature is not supported by older devices, instead use device-pixel-ratio.
 >- Many smartphones and tablets will attempt to render the page as if it were on a desktop unless you provide a viewport meta-tag.
 >- The point at which the page changes layout is a __break point__.
->- 
+
+## Design patterns
+
+>- Flexbox facilitates the position of elements left or right without floats. You can also change the order of elements without changing the HTML.
 >- 
 >- 
 >- 
