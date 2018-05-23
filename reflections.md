@@ -377,10 +377,45 @@ h1 {
 
 ## Design patterns
 
->- Flexbox facilitates the position of elements left or right without floats. You can also change the order of elements without changing the HTML.
+>- __Flexbox__ facilitates the position of elements left or right without floats. You can also change the order of elements without changing the HTML.
+>- By default, flex items orient themselves in a row, so elements contained in a flexbox container will fit in a single line, hence no matter what I set the width of the elements to be, they won't wrap; instead, the browser will size them to fit within the viewport:
+
+```html
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flexbox explained</title>
+    <style type="text/css">
+    
+      .container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .box { width: 150px; }
+    
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box dark_blue"></div>
+      <div class="box light_blue"></div>
+      <div class="box green"></div>
+    </div>
+  </body>
+</html>
+
+
+```
+
+>- By adding `flex-wrap: wrap` to the container element, the browser will know that it's okay for the elements inside to wrap to the next line.`
 >- 
->- 
->- 
+
 
 
 
