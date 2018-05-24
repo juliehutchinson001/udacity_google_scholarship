@@ -331,6 +331,7 @@ The following content is the compilation of the entire UDACITY SCHOLARSHIP PRE-S
 
 # Basic Media Queries
 
+>- __media queries__ are css rules that help us include css code (referred as __media features__) only when certain conditions are met. width is the most common media features, but there are others like orientation, which it is pretty useful when dealing with mobile devices because you can determine the landscape or portrait form of the device.
 >- The following example is a stylesheet with a media query that applies only when the viewport is wider than 300px.
 
 ```html
