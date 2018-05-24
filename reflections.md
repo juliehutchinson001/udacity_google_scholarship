@@ -341,7 +341,7 @@ The following content is the compilation of the entire UDACITY SCHOLARSHIP PRE-S
 
 >- So in addition to the meta tag with the viewport, we add a link tag of a css stylesheet so that it only applies to viewports with those dimensions
 
-## Media Queries Sintax
+## Media Queries Syntax
 
 >- Below you'll find the different structures to utilize media queries:
 
@@ -390,6 +390,11 @@ h1 {
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Flexbox explained</title>
     <style type="text/css">
+
+      .title {
+        font-size: 2.5em;
+        text-align: center;
+      }
     
       .container {
         width: 100%;
@@ -402,10 +407,15 @@ h1 {
     </style>
   </head>
   <body>
+    <div class="title"> "Flex Item: "
+      <code>order</code>
+    </div>
     <div class="container">
       <div class="box dark_blue"></div>
       <div class="box light_blue"></div>
       <div class="box green"></div>
+      <div class="box orange"></div>
+      <div class="box red"></div>
     </div>
   </body>
 </html>
@@ -414,6 +424,25 @@ h1 {
 ```
 
 >- By adding `flex-wrap: wrap` to the container element, the browser will know that it's okay for the elements inside to wrap to the next line.`
+>- Another useful feature of flexbox is the ability to change the order of elements, using the CSS order attribute.
+>- To set the order, I just need to add an order attribute to each element, like this:
+
+```css
+
+@media screen and (min-width: 700px) {
+  .dark_blue {order: 4; }
+  .light_blue {order: 5; }
+  .green {order: 2; }
+  .orange {order: 3; }
+  .red {order: 1; }
+}
+
+```
+
+>- 
+>- 
+>- 
+>- 
 >- 
 
 
