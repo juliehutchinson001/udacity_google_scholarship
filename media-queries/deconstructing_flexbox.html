@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="This is an example of a flexbox layout">
+    <title>Deconstructing Flexbox</title>
+    <style>
+
+        .container {
+        display: flex;
+        flex-wrap: wrap;
+        }
+
+        .box { 
+        height: 100px;
+        text-align: center;
+        width: 100%; 
+        }
+
+        .lime {
+        background-color: lime;
+        }
+
+        .dark_blue {
+        background-color: darkblue;
+        }
+
+        .light_blue {
+        background-color: lightblue;
+        }
+
+        .green {
+        background-color: green;
+        }
+
+        .red {
+        background-color: red;
+        }
+
+        .orange {
+        background-color: orange;
+        }
+
+        .dark_green {
+        background-color: darkgreen;
+        }
+
+        @media screen and (max-width: 450px) {
+        
+        .lime { 
+            order: 1;
+            width: 100%;
+        }
+        
+        .dark_blue { 
+            order: 6;
+            width: 60%;
+        }
+        
+        .light_blue { 
+            order: 5;
+            width: 20%;
+        }
+        
+        .green { 
+            order: 4; 
+            width: 100%;
+        }
+        
+        .red { 
+            order: 2;
+            width: 50%;
+        }
+        
+        .orange { 
+            order: 3;
+            width: 50%;
+        }
+        
+        .dark_green { 
+            order: 7;
+            width: 20%;
+        }
+        }
+
+    </style>
+
+  </head>
+  
+  <body>
+    
+    <div class="container">
+      
+      <header class="box lime"></header>
+      <div class="box dark_blue"></div>
+      <div class="box light_blue"></div>
+      <div class="box green"></div>
+      <div class="box red"></div>
+      <div class="box orange"></div>
+      <div class="box dark_green"></div>
+      
+    </div>
+    
+  </body>
+</html>
