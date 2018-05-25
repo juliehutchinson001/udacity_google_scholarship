@@ -329,8 +329,9 @@ The following content is the compilation of the entire UDACITY SCHOLARSHIP PRE-S
 }
 ```
 
-# Basic Media Queries
+# Responsive Design
 
+>- __Responsive design__ is a design strategy that is centered on designing your content so that it responds to the environment it's encountered in. The term was first coined by Ethan Marcotte who identifies three fundamental techniques for responsive design: fluid grids for flexible layouts, media queries to help you adapt content to specific screen sizes, and flexible images and media that respond to changes in screen sizes as well.
 >- __media queries__ are css rules that help us include css code (referred as __media features__) only when certain conditions are met. width is the most common media features, but there are others like orientation, which it is pretty useful when dealing with mobile devices because you can determine the landscape or portrait form of the device.
 >- The following example is a stylesheet with a media query that applies only when the viewport is wider than 300px.
 
