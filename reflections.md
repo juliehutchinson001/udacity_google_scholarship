@@ -375,6 +375,13 @@ h1 {
 >- The resolution feature is not supported by older devices, instead use device-pixel-ratio.
 >- Many smartphones and tablets will attempt to render the page as if it were on a desktop unless you provide a viewport meta-tag.
 >- The point at which the page changes layout is a __break point__.
+>- In computer programming, two common boolean operators are "and" and "or". Media queries use the keyword "and", but to express an "or" it is used a comma to separate two different media queries. If any one of the expressions returns true, then the whole media query is true. Here is an example:
+
+```css
+
+@media only screen and (min-width: 768px), only screen and (min-width: 700px) and (orientation: landscape)
+
+```
 
 ## Design patterns
 
