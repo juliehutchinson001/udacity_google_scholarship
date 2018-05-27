@@ -367,7 +367,7 @@ h1 {
 }
 
 /* make the font bigger when shown on a screen at least 480px wide */
-@media <type> [screen, print, TV] and (min-width: 480px) {
+@media [only/not] <type> [screen, print, TV] and (min-width: 480px) {
   h1 {
     font-size: 3em;
     font-weight: normal;
