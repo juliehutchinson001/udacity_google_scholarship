@@ -477,9 +477,13 @@ h1 {
 >>- Flex Containers
 >>- Flex Items
 
->- __Flex Containers__ sets the context for flexbox layout.
->- 
->- 
+>- __Flex Containers__ sets the context for flexbox layout. It contains __flex items__, the actual elements you layout using flexbox. It can be any block-level or inline element (like a div, ul, header, span).
+>- __Flex Items__ are every direct child of a flex container. There can be any number of flex items inside a __flex container__.
+>- Flexbox follows two axis that determine the layout direction of Flex Items:
+
+>>- Main Axis
+>>- Cross Axis
+
 
 
 
