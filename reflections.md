@@ -460,14 +460,6 @@ h1 {
 >>- Off Canvas
 
 >- 
->- 
->- 
->- 
->- 
->- 
->- 
->- 
->-
 
 ## Flexbox CSS Layout
 
@@ -479,11 +471,19 @@ h1 {
 
 >- __Flex Containers__ sets the context for flexbox layout. It contains __flex items__, the actual elements you layout using flexbox. It can be any block-level or inline element (like a div, ul, header, span).
 >- __Flex Items__ are every direct child of a flex container. There can be any number of flex items inside a __flex container__.
->- Flexbox follows two axis that determine the layout direction of Flex Items:
+>- Flexbox follows two axis that determine the layout direction of Flex Items. Each axis has a start side and an end side:
 
->>- Main Axis
->>- Cross Axis
+>>- Main Axis (x-axis)
+>>- Cross Axis (y-axis)
 
+>- The __Main Axis__ is the primary axis along which flex items are laid out. It defines the direction of the flex items in the flex container.
+>- The __Cross Axis__ runs perpendicular to the main axis. 
+>- 
+>- 
+>- 
+>- 
+>- 
+>- 
 
 
 
