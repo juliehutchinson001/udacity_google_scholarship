@@ -451,6 +451,25 @@ h1 {
 
 ```
 
+# Common responsive patterns
+>- The used ones are the following, but sometimes developers use the combination of two, to display the website:
+
+>>- Mostly Fluid
+>>- Layout Shifter
+>>- Column Drop
+>>- Off Canvas
+
+>- 
+>- 
+>- 
+>- 
+>- 
+>- 
+>- 
+>- 
+>-
+
+## Flexbox CSS Layout
 >- 
 >- 
 >- 
