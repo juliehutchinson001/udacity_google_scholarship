@@ -471,9 +471,13 @@ h1 {
 
 ## Flexbox CSS Layout
 
->- Before flexbox came along, using floats were meant to wrap text around images. Floats require clear fixes to prevent containing elements from collapsing.
->- 
->- 
+>- Before flexbox came along, using floats were meant to wrap text around images. Floats require clear fixes to prevent containing elements from collapsing. With inline-block display you're always fighting with the default display created by the browser.
+>- Flexbox - Flexible Box Layout is a set of css properties that proved a flexible way to layout page content. The most important terms used in flexbox are:
+
+>>- Flex Containers
+>>- Flex Items
+
+>- __Flex Containers__ sets the context for flexbox layout.
 >- 
 >- 
 
