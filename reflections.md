@@ -470,7 +470,8 @@ h1 {
 >-
 
 ## Flexbox CSS Layout
->- 
+
+>- Before flexbox came along, using floats were meant to wrap text around images. Floats require clear fixes to prevent containing elements from collapsing.
 >- 
 >- 
 >- 
