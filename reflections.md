@@ -435,7 +435,20 @@ h1 {
 
 ```
 
->- By adding `flex-wrap: wrap` to the container element, the browser will know that it's okay for the elements inside to wrap to the next line.`
+>- By adding `flex-wrap: wrap` to the container element, the browser will know that it's okay for the elements inside to wrap to the next line.
+>- The same wrapping behavior applies to the container when the direction is set to column.
+
+```css
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 280px;
+}
+
+```
+
 >- Another useful feature of flexbox is the ability to change the order of elements, using the CSS order attribute.
 >- To set the order, I just need to add an order attribute to each element, like this:
 
