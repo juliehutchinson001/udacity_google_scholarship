@@ -435,6 +435,7 @@ h1 {
 
 ```
 
+>- Using floats or inline-block display for layout can be impractical. when the elements run out of space, they will break to the next line.
 >- By adding `flex-wrap: wrap` to the container element, the browser will know that it's okay for the elements inside to wrap to the next line.
 >- The same wrapping behavior applies to the container when the direction is set to column.
 
