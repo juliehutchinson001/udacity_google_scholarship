@@ -436,6 +436,7 @@ h1 {
 ```
 
 >- Using floats or inline-block display for layout can be impractical. when the elements run out of space, they will break to the next line.
+>- The `justify-content` property lets you control the position and  alignment of flex items on the main axis and how space should be distributed in a flex container. This property can only be applied to the parent container. The default value is flex-start, which places the items towards the start of each flex line.
 >- By adding `flex-wrap: wrap` to the container element, the browser will know that it's okay for the elements inside to wrap to the next line.
 >- The same wrapping behavior applies to the container when the direction is set to column.
 
@@ -492,7 +493,7 @@ h1 {
 
 >- The __Main Axis__ is the primary axis along which flex items are laid out. It defines the direction of the flex items in the flex container.
 >- The __Cross Axis__ runs perpendicular to the main axis. 
->- 
+>- Margins with the value auto specially, have a significant effect on flex items. A margin set to auto will absorb any extra space around a flex item and push other flex items into different positions.
 >- 
 >- 
 >- 
