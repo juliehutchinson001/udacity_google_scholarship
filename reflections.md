@@ -494,7 +494,7 @@ h1 {
 >- The __Main Axis__ is the primary axis along which flex items are laid out. It defines the direction of the flex items in the flex container.
 >- The __Cross Axis__ runs perpendicular to the main axis. 
 >- Margins with the value auto specially, have a significant effect on flex items. A margin set to auto will absorb any extra space around a flex item and push other flex items into different positions.
->- 
+>- The flex-grow property determines how much of the available space inside the flex-container an item should take up.
 >- 
 >- 
 >- 
