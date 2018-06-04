@@ -495,6 +495,16 @@ h1 {
 >- The __Cross Axis__ runs perpendicular to the main axis. 
 >- Margins with the value auto specially, have a significant effect on flex items. A margin set to auto will absorb any extra space around a flex item and push other flex items into different positions.
 >- The __flex-grow__ property determines how much of the available space inside the flex-container an item should take up. By default, flex items in a flex container do not take up the full space of a line. You can expand the flex items so that they fillup the entire line using the flex-grow property. The default value for flex-grow is zero meaning, flex items do not expand. The bigger the flex-grow value, the more an item grows relative to the other items.
+>- The __flex-basis__ property provides more control than flex-grow in the sense that stablishes a width for the containers no matter the length of the content of those containers. It takes in the same dimentions as width and it changes the children according to that measurement. The flex-basis property works, alongside the flex-grow property to display equal, but flexible widths for all flex items.
+>- When using flex-grow and flex-basis properties for a selector, it is recommended to use the shorthand __flex__ property which combines the previous two properties and __flex-shrink__ which is the opposite property of flex-grow:
+
+```css
+.item {
+  flex: <flex-grow>, <flex-basis>, <flex-shrink>;
+}
+```
+
+>- 
 >- 
 >- 
 >- 
