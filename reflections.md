@@ -469,11 +469,21 @@ h1 {
 # Common responsive patterns
 >- The used ones are the following, but sometimes developers use the combination of two, to display the website:
 
+>>- Column Drop
 >>- Mostly Fluid
 >>- Layout Shifter
->>- Column Drop
 >>- Off Canvas
 
+>- For the examples moving forward, the colored boxes represent areas of content.
+
+## Column Drop
+
+>- 
+>- 
+>- 
+>- 
+>- 
+>- 
 >- 
 
 ## Flexbox CSS Layout
@@ -500,11 +510,11 @@ h1 {
 
 ```css
 .item {
-  flex: <flex-grow>, <flex-basis>, <flex-shrink>;
+  flex: <flex-grow>, <flex-shrink>, <flex-basis>;
 }
 ```
 
->- 
+>- The __align-items__ property works on the flex container/parent only. It aligns all the items (on the cross axis) inside the container, the default value is stretch, but you can also use flex-start, flex-end, center. 
 >- 
 >- 
 >- 
@@ -1654,7 +1664,7 @@ $("#item").addClass('blue');
 >- So, if you desire to change the content of an html tag that contains text, you can do so with the methods `.html()` or `.text()`.
 >- In the following example, I am selecting the `id="flyup-homepage"` from the udacity website, if you run the `.html()` on the selected element, you'll notice on the console that the html inside of the id gets rendered including the html tags, classes, and attributes:
 
-```
+```javascript
 $('#flyup-homepage').html()
 
 >>> <div style="display:inline-block;">
@@ -1665,7 +1675,7 @@ $('#flyup-homepage').html()
 
 >- But if you run `.text()` on a selection, you'll see that jQuery has stripped out all of the html tags, and only return the text contained within 
 
-```
+```javascript
 $('#flyup-homepage').text()
 
 >>> Nanodegrees
@@ -1676,7 +1686,7 @@ $('#flyup-homepage').text()
 
 >- Adding elements to the DOM using vanilla Javascript can be confusing. First, you have to create a DOM node, add data to it, find a parent for it, and then finally add that node as a child to that parent. Each step happens independently. For example:
 
-```
+```javascript
 let div = document.createNode('div');
 
 div.innerHTML = "Hello You!";
@@ -1693,7 +1703,7 @@ With jQuery, you can create new DOM nodes and simultaneously add them to the doc
 
 >- `.append()`, `.prepend()`, these add children to an element.
 
-```
+```javascript
 let firstArticleItem;
 
 firstArticleItem = $('.article-item').first();
@@ -1719,7 +1729,7 @@ firstArticleItem.prepend('<img src="http://placepuppy.it">');
 
 >- To solve this problem, we pass your function into the jQuery object, like so:
 
-```
+```javascript
 function someFunction() {
     // Do interesting things
 }
@@ -1728,7 +1738,7 @@ $(someFunction)
 
 or
 
-```
+```javascript
 $(function() {
     $('img').attr('src', 'http://placekitten.it/350/150');
 });
