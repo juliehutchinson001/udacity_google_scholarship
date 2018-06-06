@@ -481,6 +481,9 @@ h1 {
 >- 
 >- 
 >- 
+
+![jQueryAPIMainPage.jpg](https://github.com/juliehutchinson001/udacity_google_scholarship/blob/master/fend-animal-trading-cards-master/jQueryMethods.jpg?raw=true)
+
 >- 
 >- 
 >- 
