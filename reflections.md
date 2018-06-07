@@ -641,7 +641,7 @@ console.log(color);
 ### Switch statement
 >- A switch statement is an another way to chain multiple else if statements that are based on the same value without using conditional statements. Instead, you just switch which piece of code is executed based on a value.
 
-```
+```javascript
 switch (option) {
   case 1:
     console.log("You selected option 1.");
