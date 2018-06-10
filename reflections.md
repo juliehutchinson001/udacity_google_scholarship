@@ -478,12 +478,12 @@ h1 {
 
 ## Column Drop
 
->- 
->- 
->- 
+>- At its narrowest viewport, each element simply stacks vertically, one on top of the other. As things get wider, the elements expand until the first breakpoint is hit. At the first breakpoint, two elements are now side by side and the third element is underneath. Generally, once the viewport hits a maximum width, the columns hit a maximum size, the elements reflow side by side to a three - column layout and a margin is added on each side. 
 
-![jQueryAPIMainPage.jpg](https://github.com/juliehutchinson001/udacity_google_scholarship/blob/master/fend-animal-trading-cards-master/jQueryMethods.jpg?raw=true)
+![Column_Drop.jpg](https://github.com/juliehutchinson001/udacity_google_scholarship/blob/master/fend-animal-trading-cards-master/Column_Drop.jpg?raw=true)
 
+>- 
+>- 
 >- 
 >- 
 >- 
