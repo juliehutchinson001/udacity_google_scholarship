@@ -482,7 +482,12 @@ h1 {
 
 ![Column_Drop.jpg](https://github.com/juliehutchinson001/udacity_google_scholarship/blob/master/fend-animal-trading-cards-master/Column_Drop.jpg?raw=true)
 
->- 
+## Mostly Fluid
+
+>- This layout is very similar to column drop but with a bit more of layers and different position of those blocks.
+
+![Fluid.jpg](https://github.com/juliehutchinson001/udacity_google_scholarship/blob/master/fend-animal-trading-cards-master/Fluid.jpg?raw=true)
+
 >- 
 >- 
 >- 
