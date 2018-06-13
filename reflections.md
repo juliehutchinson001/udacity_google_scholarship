@@ -488,7 +488,9 @@ h1 {
 
 ![Fluid.jpg](https://github.com/juliehutchinson001/udacity_google_scholarship/blob/master/fend-animal-trading-cards-master/Fluid.jpg?raw=true)
 
->- 
+## Layout Shifter
+
+>- The layout shifter is probably the most responsive pattern with
 >- 
 >- 
 >- 
