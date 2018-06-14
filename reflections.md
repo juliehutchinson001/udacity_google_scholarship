@@ -491,6 +491,10 @@ h1 {
 ## Layout Shifter
 
 >- The layout shifter is probably the most responsive pattern with
+
+![Layout_shifter.jpg](https://github.com/juliehutchinson001/udacity_google_scholarship/blob/master/fend-animal-trading-cards-master/Layout_shifter.jpg?raw=true)
+
+
 >- 
 >- 
 >- 
