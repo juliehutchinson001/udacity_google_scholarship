@@ -86,7 +86,7 @@ The following content is the compilation of the entire UDACITY SCHOLARSHIP PRE-S
 
 >- The __href attribute__ specifies the path to the linked resource and the rel attribute names the relationship between the resource and your document.
 
-```
+```html
 <head>
   <title>My Webpage</title>
   <!-- ... -->
