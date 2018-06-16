@@ -947,7 +947,7 @@ helloCat(catSays);
 >- A function that is passed into another function is called a __callback__.
 >- Let's say you had a helloCat() function, and you wanted it to return "Hello" followed by a string of "meows" like you had with catSays. Well, rather than redoing all of your hard work, you can make helloCat() accept a callback function, and pass in catSays.
 
-```
+```javascript
 // function expression catSays
 let catSays = function(max) {
   let catMessage = "";
