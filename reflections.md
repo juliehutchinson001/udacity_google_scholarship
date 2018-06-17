@@ -969,7 +969,7 @@ helloCat(catSays);
 ### Inline function expressions
 >- A __function expression__ is when a function is assigned to a variable. In JavaScript, this can also happen when you pass a function inline as an argument to another function. Take the favoriteMovie example for instance:
 
-```
+```javascript
 // Function expression that assigns the function displayFavorite
 // to the variable favoriteMovie
 let favoriteMovie = function displayFavorite(movieName) {
