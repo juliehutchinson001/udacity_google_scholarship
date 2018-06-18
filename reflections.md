@@ -490,12 +490,61 @@ h1 {
 
 ## Layout Shifter
 
->- The layout shifter is probably the most responsive pattern with
+>- The layout shifter is probably the most responsive pattern with multiple break points across several different screen widths, but the key to this layout is the way that content moves about because we can use the order CSS attribute of Flexbox.  
 
 ![Layout_shifter.jpg](https://github.com/juliehutchinson001/udacity_google_scholarship/blob/master/fend-animal-trading-cards-master/Layout_shifter.jpg?raw=true)
 
 
->- 
+```css
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 100%;
+}
+
+.dark_blue {
+  order: 4;
+}
+
+.light_blue {
+  order: -1;
+}
+
+@media screen and (min-width: 500px) {
+  .dark_blue {
+    width: 50%;
+  }
+
+  .container2 {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .dark_blue {
+    width: 25%;
+    order: 1;
+  }
+
+  .container2 {
+    width: 50%;
+  }
+
+  .red {
+    width: 25%;
+    order: -1;
+  }
+}
+
+
+```
+
+>- Remember the default value of order for any element is zero, the red is set in -1 so that it appears first.
 >- 
 >- 
 >- 
