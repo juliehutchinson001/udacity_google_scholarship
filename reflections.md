@@ -545,6 +545,12 @@ h1 {
 ```
 
 >- Remember the default value of order for any element is zero, the red is set in -1 so that it appears first.
+
+## Off Canvas
+
+>- The off canvas pattern places less frequently used content, for example navigation or app menus, off screen, only showing them if the screen is large enough.
+>- On smaller screens,  the off canvas content is typically shown when the user taps on the hamburger icon.
+>- In narrow viewports, a navigation bar is hidden until a hamburger menu icon is clicked.
 >- 
 >- 
 >- 
