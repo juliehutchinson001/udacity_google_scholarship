@@ -565,15 +565,52 @@ html, body, main {
 
 nav {
   width: 300px;
-  height: 100%;
   position: absolute;
-  transform: translate (-300px, 0);
+  /* This trasform moves the drawer off canvas. */
+  -webkit-transform: translate(-300px, 0);
+  transform: translate(-300px, 0);
+  /* Optionally, we animate the drawer. */
   transition: transform 0.3s ease;
+}
+nav.open {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+@media screen and (min-width: 600px) {
+  nav {
+    position: relative;
+    transform: translate(0, 0);
+  }
+
+  body {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  main {
+    width: auto;
+    flex-grow: 1;
+  }
 }
 ```
 
+```javascript
+
+menu.addEventListener('click', function(e) {
+  drawer.classList.toggle('open');
+  e.stopPropagation();
+});
+
+```
+
 >- In order to make sure the elements take up the full viewport width, I need to set the width on html, body and main to 100%.
->- 
+>- Next, the styles are set for the off canvas nav element. The specific width is 300px, being careful to keep it reasonably sized so that it doesn't overflow the viewport.
+>- Translate -300px is to move it off the screen and the transition is added so that the flowing is animated nicely.
+>- When I want it to appear, I'll add an open class that resets the transform.
+>- Now, I'll add a breakpoint at 600px that repositions everything back to its normal spot. This media query resets the transform, adding flex grow 1 to the main element allows the element to grow and take up the full remaining width of the viewport.
+>- The javascript code uses toggle with the open class to activate onClick the side menu.
+>- The JavaScript that's shown tells us that we are adding an event listener to do something when the user clicks the (hamburger) menu button. The event listener tells the drawer to toggle the class open which means that if the drawer does not have the class open then it will add it and if it does have the class open it will remove it. The rule for nav.open is shown at 1:27 which tells the nav to translate back into place to position 0,0. This is when it is open. Without this class it is translated off screen at (-300px, 0)
 >- 
 
 ## Flexbox CSS Layout
