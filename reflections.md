@@ -551,7 +551,28 @@ h1 {
 >- The off canvas pattern places less frequently used content, for example navigation or app menus, off screen, only showing them if the screen is large enough.
 >- On smaller screens,  the off canvas content is typically shown when the user taps on the hamburger icon.
 >- In narrow viewports, a navigation bar is hidden until a hamburger menu icon is clicked.
->- 
+
+```html
+<nav id="drawer" class="dark_blue">___</nav>
+<main class="light_blue">---</main>
+```
+
+```css
+html, body, main {
+  height: 100%;
+  width: 100%;
+}
+
+nav {
+  width: 300px;
+  height: 100%;
+  position: absolute;
+  transform: translate (-300px, 0);
+  transition: transform 0.3s ease;
+}
+```
+
+>- In order to make sure the elements take up the full viewport width, I need to set the width on html, body and main to 100%.
 >- 
 >- 
 
