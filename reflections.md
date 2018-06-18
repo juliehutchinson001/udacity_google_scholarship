@@ -991,7 +991,7 @@ movies(favoriteMovie, "Finding Nemo");
 
 But you could have bypassed the first assignment of the function, by passing the function to the movies() function inline.
 
-```
+```javascript
 // Function declaration that takes in two arguments: a function for displaying
 // a message, along with a name of a movie
 function movies(messageFunction, name) {
@@ -1022,7 +1022,7 @@ movies(function displayFavorite(movieName) {
 
 >- You can use the push() method to add elements to the end of an array.
 
-```
+```javascript
 let donuts = ["glazed", "chocolate frosted", "Boston creme", "glazed cruller", "cinnamon sugar", "sprinkled"];
 ```
 
