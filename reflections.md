@@ -610,7 +610,7 @@ menu.addEventListener('click', function(e) {
 >- When I want it to appear, I'll add an open class that resets the transform.
 >- Now, I'll add a breakpoint at 600px that repositions everything back to its normal spot. This media query resets the transform, adding flex grow 1 to the main element allows the element to grow and take up the full remaining width of the viewport.
 >- The javascript code uses toggle with the open class to activate onClick the side menu.
->- The JavaScript that's shown tells us that we are adding an event listener to do something when the user clicks the (hamburger) menu button. The event listener tells the drawer to toggle the class open which means that if the drawer does not have the class open then it will add it and if it does have the class open it will remove it. The rule for nav.open is shown at 1:27 which tells the nav to translate back into place to position 0,0. This is when it is open. Without this class it is translated off screen at (-300px, 0)
+>- The JavaScript that's shown tells us that we are adding an event listener to do something when the user clicks the (hamburger) menu button. The event listener tells the drawer to toggle the class open which means that if the drawer does not have the class open then it will add it and if it does have the class open it will remove it. The rule for nav.open tells the nav to translate back into place to position 0,0. This is when it is open. Without this class it is translated off screen at (-300px, 0)
 >- 
 
 ## Flexbox CSS Layout
@@ -2062,8 +2062,8 @@ $( '#rooms' ).on( 'click', 'li', function() {
 >- <p> To create a new event object: <a href="https://api.jquery.com/category/events/event-object/">jQuery API documentation | Event Object</a></p>
 >- <p> Definition of the UI Events (W3C spec UI Events): <a href="https://www.w3.org/TR/DOM-Level-3-Events/">DOM Level 3 Events</a></p>
 >- <p> Understanding Event Delegations: <a href="https://learn.jquery.com/events/event-delegation/">jQuery API documentation | Event Delegation</a></p>
-
 >- <p> How to monitor events on web browser tools for web developers: <a href="https://developers.google.com/web/tools/chrome-devtools/console/events?hl=en#monitor-events">Monitor Events</a></p>
+>- <p> e.stopPropagation() <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Examples#Example_5:_Event_Propagation">Event Propagation</a></p>
 
 ### Game your way to understanding this topics
 
