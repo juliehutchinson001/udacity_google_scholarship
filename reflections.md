@@ -719,7 +719,7 @@ if ("") {
 
 >- A value is truthy if it converts to true when evaluated in a boolean context. For example, the number 1 is truthy because, 1 evaluates to true.
 
-```
+```javascript
 if (1) {
     console.log("the value is truthy");
 } else {
