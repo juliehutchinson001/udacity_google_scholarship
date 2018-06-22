@@ -754,7 +754,8 @@ conditional ? (if condition is true) : (if condition is false)
 
 For example:
 
-```
+```javascript
+
 let isGoing = true;
 let color = isGoing ? "green" : "red";
 console.log(color);
