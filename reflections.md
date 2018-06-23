@@ -699,7 +699,7 @@ menu.addEventListener('click', function(e) {
 
 >- A value is falsy if it converts to false when evaluated in a boolean context. For example, an empty String "" is falsy because, "" evaluates to false.
 
-```
+```javascript
 if ("") {
     console.log("the value is truthy");
 } else {
