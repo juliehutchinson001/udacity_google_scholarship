@@ -2030,6 +2030,7 @@ $( '#rooms' ).on( 'click', 'li', function() {
 
 ### Learning Courses
 >- <p>Web deployment platform: <a href="https://www.udacity.com/course/deploying-applications-with-heroku--ud272">Deploying apps with Heroku | Udacity</a></p>
+>- <p>Utilize Responsive Images <a href="https://www.udacity.com/course/responsive-images--ud882">Responsive Images by Google | Udacity</a></p>
 >- <p>ECMAScript 6, or ES6's updates to JS language: <a href="https://www.udacity.com/course/es6-javascript-improved--ud356">ES6 - JavaScript Improved | Udacity</a></p>
 >- <p> Collection of JS utilities for the intermediate to advanced JS developer: <a href="https://mootools.net/">Mootools</a></p>
 >- <p> Make asynchronous requests in JavaScript: <a href="https://www.udacity.com/course/intro-to-ajax--ud110">Intro to Ajax | Udacity</a></p>
