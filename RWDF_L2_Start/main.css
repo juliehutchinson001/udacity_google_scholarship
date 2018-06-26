@@ -53,6 +53,7 @@ ul {
 }
 
 .header__inner {
+  display: inline-block;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -433,22 +434,22 @@ footer a {
 
   .header__inner {
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: space-between;
   }
 
   .header__logo {
     height: 72px;
-    margin-right: 1em;
     vertical-align: top;
     margin-top: 12px;
   }
 
   .header__title {
     font-weight: 300;
-    font-size: 4em;
-    margin: 0.5em 0.25em;
-    display: inline-block;
+    font-size: 2.5em;
+    margin-right: auto;
     color: #212121;
   }
 
@@ -830,8 +831,11 @@ footer a {
     display: inline-block;
     color: #212121;
   }
-  
-  
+
+  .fa-bars {
+    visibility: visible;
+  }
+
   /*
    *
    * Top Level Navigation
