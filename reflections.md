@@ -2088,6 +2088,7 @@ $( '#rooms' ).on( 'click', 'li', function() {
 
 ### Quiz informational links
 
+>- <p> GitHub's markdown conventions: <a href="https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/">Markdown documentation</a></p>
 >- <p> Toggle a Class selector method: <a href="http://api.jquery.com/toggleclass/">jQuery API documentation | .toggleClass()</a></p>
 >- <p> Attribute selector method: <a href="http://api.jquery.com/attr/">jQuery API documentation | .attr()</a></p>
 >- <p> CSS selector method: <a href="http://api.jquery.com/css/">jQuery API documentation | .css()</a></p>
