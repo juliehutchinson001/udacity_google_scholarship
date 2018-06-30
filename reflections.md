@@ -2057,7 +2057,7 @@ $( '#rooms li' ).on( 'click', function() {
 
 >- Alternatively, we can use jQuery's event delegation to set the event listener on just one element (the ul#rooms) and check if the target element is a list item;
 
-```
+```javascript
 $( '#rooms' ).on( 'click', 'li', function() {
     ...
 });
