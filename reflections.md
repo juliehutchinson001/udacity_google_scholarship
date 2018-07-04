@@ -59,7 +59,7 @@ The following content is the compilation of the entire UDACITY SCHOLARSHIP PRE-S
 
 ```html
   .right {
-       text-align: right;
+        text-align: right;
   }
 
 <div class="right"></div>
@@ -70,14 +70,11 @@ The following content is the compilation of the entire UDACITY SCHOLARSHIP PRE-S
 
 7. The `font-size` property is used to increase the _size of the font_ to be larger
 
-8. The `text-transform` and `text-decoration` properties are used to _capitalize_ and _underline_ the text.
-
-9. Color is used to change the color.
-10. Every CSS statement is made up of a selector and a declaration block. The __selector__ tells the browser what HTML element we want to style and the __declaration block__ tells the browser what styles need to be applied to that HTML.
+8. Color is used to change the color.
+9. Every CSS statement is made up of a selector and a declaration block. The __selector__ tells the browser what HTML element we want to style and the __declaration block__ tells the browser what styles need to be applied to that HTML.
 
 ---
 >- A stylesheet is a file containing the code that describes how elements on your webpage should be displayed.
-
 >- To link your stylesheet to your html file, you'll need to create a `<link>` to your stylesheet in your HTML.
 
 ```html
@@ -99,8 +96,8 @@ The following content is the compilation of the entire UDACITY SCHOLARSHIP PRE-S
 
 <table>
     <tr>
-        <td>Mac</td>
-        <td>Windows/Linux</td>
+      <td>Mac</td>
+      <td>Windows/Linux</td>
     </tr>
     <tr>
         <td>
@@ -271,16 +268,16 @@ The following content is the compilation of the entire UDACITY SCHOLARSHIP PRE-S
         </td>
     </tr>
     <tr>
-        <td>
-          <ul>
-            <li>Find: command + F</li>
-          </ul>
-        </td>
-        <td>
-          <ul>
-            <li>Find: Ctrl + F</li>
-          </ul>
-        </td>
+      <td>
+        <ul>
+          <li>Find: command + F</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Find: Ctrl + F</li>
+        </ul>
+      </td>
     </tr>
 </table>
 
@@ -289,7 +286,7 @@ The following content is the compilation of the entire UDACITY SCHOLARSHIP PRE-S
 ### Local Paths
 
 >- Computers have folders (also called "directories"). Operating systems like Windows, Mac and Linux organize all of your files into a tree of directories called a file system. There's a top-most directory, often called the root, that contains all of the other directories. Within the root, there are files and directories. Within those directories are more files and more directories. And within those directories are even more files and directories, and so on.
->- Every file has an address, which we call the "path." An absolute path is written in relation to the computer's root directory. 
+>- Every file has an address, which we call the "path." An absolute path is written in relation to the computer's root directory.
 
 ### External Paths
 
