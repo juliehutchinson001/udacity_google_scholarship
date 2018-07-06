@@ -1,0 +1,177 @@
+body {
+
+    /* layout */
+    display: grid;
+    grid-template-columns: repeat(12, auto);
+}
+
+.section-top {
+
+
+    /* dimensions */
+    padding: 10px 50px 50px 0px;
+
+    /* layout */
+    display: grid;
+
+    grid-column: 4 / 10;
+    grid-template-rows: repeat(3, 60px);
+}
+
+img {
+
+    /* layout */
+    left: 220px;
+    position: absolute;
+    top: 50px;
+    z-index: -1;
+
+    /* background
+    background-repeat: no-repeat;
+
+     */
+}
+
+a {
+    /* typography */
+    text-decoration: none;
+}
+
+ul {
+
+    /* style */
+    list-style: none;
+
+    /* dimensions */
+    margin: 0;
+    padding: 0;
+
+}
+
+.port-header {
+
+    /* layout */
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+
+    grid-row: 2 / 3;
+
+    /* typography */
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.port-header-title {
+
+    /* dimensions */
+    margin: 0;
+
+    width: 70%;
+
+    /* layout */
+    grid-column: 2 / 3;
+
+    order: -1;
+
+    /* typography */
+    font-size: 30px;
+
+}
+
+.port-header-subtitle {
+
+    /* dimensions */
+    margin: 0;
+    padding: 0;
+
+    width: 70%;
+
+    /* layout */
+    order: 3;
+
+}
+
+.fab {
+    grid-column: 3 / 4;
+}
+
+.fa-facebook-f {
+
+    /* color */
+    color: #4267B2;
+
+    /* dimensions */
+    margin-left: 15px;
+
+    width: 30%;
+
+    /* layout */
+    order: 2;
+
+    /* typography */
+    font-size: 40px;
+
+}
+
+.fa-twitter {
+
+    /* color */
+    color: #1DA1F2;
+
+    /* dimensions */
+    margin-left: 15px;
+
+    width: 30%;
+
+    /* layout */
+    order: 4;
+
+    /* typography */
+    font-size: 40px;
+
+}
+
+hr {
+    font-weight: 600;
+}
+
+.navigation-port {
+
+    /* color */
+
+    /* layout */
+    align-items: flex-end;
+    display: flex;
+    flex-direction: row;
+
+    grid-row: 3 / 4;
+
+}
+
+.navigation-port-menu {
+
+    /* dimensions */
+    margin-left: 15px;
+
+    /* layout */
+    display: flex;
+    justify-content: flex-start;
+
+    /* typography */
+    font-size: 20px;
+    text-decoration: none;
+}
+
+li > a {
+
+    /* color */
+    color: rgba(48, 46, 46, 0.83);
+    font-weight: 700;
+
+    /* dimensions */
+    margin-left: 150px;
+
+    /* typography */
+    text-align: left;
+}
+
