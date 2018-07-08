@@ -9,27 +9,27 @@ body {
 
 
     /* dimensions */
-    padding: 10px 50px 50px 0px;
+    padding: 0px;
 
     /* layout */
     display: grid;
 
-    grid-column: 4 / 10;
+    grid-column: 5 / 9;
     grid-template-rows: repeat(3, 60px);
 }
 
 img {
 
+    /* dimensions */
+    height: 200px;
+    width: 800px;
+
     /* layout */
-    left: 420px;
+    left: 300px;
     position: absolute;
-    top: 50px;
+    top: 35px;
     z-index: -1;
 
-    /* background
-    background-repeat: no-repeat;
-
-     */
 }
 
 a {
@@ -66,7 +66,7 @@ ul {
     /* dimensions */
     margin: 0;
 
-    width: 70%;
+    width: 60%;
 
     /* layout */
     grid-column: 2 / 3;
@@ -84,15 +84,11 @@ ul {
     margin: 0;
     padding: 0;
 
-    width: 70%;
+    width: 60%;
 
     /* layout */
     order: 3;
 
-}
-
-.fab {
-    grid-column: 3 / 4;
 }
 
 .fa-facebook-f {
@@ -103,7 +99,7 @@ ul {
     /* dimensions */
     margin-left: 15px;
 
-    width: 30%;
+    width: 40%;
 
     /* layout */
     order: 2;
@@ -121,7 +117,7 @@ ul {
     /* dimensions */
     margin-left: 15px;
 
-    width: 30%;
+    width: 40%;
 
     /* layout */
     order: 4;
@@ -151,7 +147,7 @@ hr {
 .navigation-port-menu {
 
     /* dimensions */
-    margin-left: 15px;
+    margin-left: 5px;
 
     /* layout */
     display: flex;
