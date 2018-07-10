@@ -805,6 +805,18 @@ console.log(type, color, carat);
 
 ```
 
+## Iteration
+
+>- ES6 brings a new iterable protocol that allows javascript objects to define or customize their iteration behavior. Also, a new iterator comes called, "for... of" loop that only works with iterable objects.
+
+```javascript
+const names = ['James', 'Julie', 'Juan'];
+
+for (let name of names) {
+  console.log(name);
+}
+```
+
 ---
 
 ## Conditionals
