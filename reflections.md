@@ -771,10 +771,41 @@ let message = `${student.name},
 
 >- By using template literals, you can drop the quotes along with the string concatenation operator. Also, you can reference the object's properties inside expressions.
 
+## Destructuring
 
+>- In ES6, you can extract data from arrays and objects into distinct variables using destructuring allowing you to specify the elements you want to extract from an array or object on the left side of an assignment...
 
+```javascript
 
+const point = [10, 25, -34];
 
+const [x, y, z] = point;
+
+console.log(x, y, z);
+
+>>> 10 25 -34
+
+```
+
+>- another case is destructuring values from an object
+
+```javascript
+
+const gemstone = {
+  type: 'quartz',
+  color: 'rose',
+  carat: 21.29
+};
+
+const {type, color, carat} = gemstone;
+
+console.log(type, color, carat);
+
+>>> quartz rose 21.29
+
+```
+
+---
 
 ## Conditionals
 
