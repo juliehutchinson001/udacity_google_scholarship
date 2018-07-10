@@ -20,3 +20,8 @@ const days = ['sunday', 'monday', 'tuesday', 'wednesday',
             'thursday', 'friday', 'saturday'];
 
 // your code goes here
+
+for(let day of days) {
+    let capsDay = `${day.charAt(0).toUpperCase()}${day.slice(1)}`;
+    console.log(capsDay);
+}
