@@ -10,11 +10,10 @@
  * and `three` with the colors from the `things` array.
  */
 
-const things = ['red', 'basketball', 'paperclip', 'green', 'computer', 'earth', 'udacity', 'blue', 'dogs'];
+const things = ['red', 'basketball', 'paperclip', 'green',
+                'computer', 'earth', 'udacity', 'blue', 'dogs'];
 
-const one = things;
-const two = '';
-const three = '';
+const [one, , , two, , , , ] = things;
 
 const colors = `List of Colors
 1. ${one}
