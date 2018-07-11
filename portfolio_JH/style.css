@@ -228,7 +228,7 @@ main {
 
     /* dimensions */
     margin: 0px;
-    padding: 2px 0px 0px 5px;
+    padding: 2px 0px 5px 5px;
 
     /* outline */
     border-top: 1px solid #ddd;
@@ -245,4 +245,10 @@ main {
 
     /* typography */
     font-size: 1em;
+}
+
+footer {
+
+    /* layout */
+    grid-column: 4 / 10;
 }
