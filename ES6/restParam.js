@@ -17,8 +17,22 @@
 
 // your code goes here
 
-function average() {
-    
+function average(...nums) {
+
+    let addn = 0;
+
+    for (const num of nums) {
+        addn += num;
+    }
+
+    if (average.arguments.length > 0) {
+
+        let total = addn / average.arguments.length;
+
+        return total;
+    } else {
+        return 0;
+    }
 }
 
 console.log(average(2, 6));
