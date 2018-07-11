@@ -2,7 +2,7 @@ body {
 
     /* layout */
     display: grid;
-    grid-template-columns: repeat(12, auto);
+    grid-template-columns: repeat(12, 110px);
 }
 
 .section-top {
@@ -14,11 +14,11 @@ body {
     /* layout */
     display: grid;
 
-    grid-column: 5 / 9;
+    grid-column: 4 / 10;
     grid-template-rows: repeat(3, 60px);
 }
 
-img {
+.back-header-img {
 
     /* dimensions */
     height: 200px;
@@ -66,7 +66,7 @@ ul {
     /* dimensions */
     margin: 0;
 
-    width: 60%;
+    width: 85%;
 
     /* layout */
     grid-column: 2 / 3;
@@ -84,7 +84,7 @@ ul {
     margin: 0;
     padding: 0;
 
-    width: 60%;
+    width: 85%;
 
     /* layout */
     order: 3;
@@ -99,7 +99,7 @@ ul {
     /* dimensions */
     margin-left: 15px;
 
-    width: 40%;
+    width: 15%;
 
     /* layout */
     order: 2;
@@ -117,7 +117,7 @@ ul {
     /* dimensions */
     margin-left: 15px;
 
-    width: 40%;
+    width: 15%;
 
     /* layout */
     order: 4;
@@ -127,13 +127,7 @@ ul {
 
 }
 
-hr {
-    font-weight: 600;
-}
-
 .navigation-port {
-
-    /* color */
 
     /* layout */
     align-items: flex-end;
@@ -171,3 +165,86 @@ li > a {
     text-align: left;
 }
 
+main {
+
+    /* layout */
+    grid-column: 4 / 10;
+}
+
+.parg {
+
+    /* layout */
+    text-align: justify;
+}
+
+.sect-bottom {
+
+    /* dimensions */
+    margin: 0px 163px;
+    padding: 15px 16px;
+
+    /* outline */
+    border: 1px solid #ddd;
+    border-radius: 4px 4px 0px 0px;
+
+}
+
+.proj-name {
+
+    /* dimensions */
+    margin: 0px;
+    padding-top: 0px;
+
+}
+
+.status {
+
+    /* color */
+    background-color: #60D156;
+
+    /* dimensions */
+    height: 10px;
+    margin-left: 4px;
+    width: 10px;
+
+    /* layout */
+    display: inline-block;
+
+    /* outline */
+    border-radius: 5px;
+
+}
+
+.proj-description {
+
+    /* dimensions */
+    margin-top: 8px;
+
+    /* layout */
+    text-align: justify;
+}
+
+.proj-url {
+
+    /* dimensions */
+    margin: 0px 163px;
+    padding: 5px 16px;
+
+    /* outline */
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+
+}
+
+.proj-link {
+
+    /* color */
+    color: #444;
+
+    /* dimensions */
+    padding-top: 0.2em;
+
+    /* typography */
+    font-size: 1em;
+}
