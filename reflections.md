@@ -813,9 +813,33 @@ console.log(type, color, carat);
 const names = ['James', 'Julie', 'Juan'];
 
 for (let name of names) {
-  console.log(name);
+	console.log(name);
 }
+
+>>> James Julie Juan
+
 ```
+
+>- You can stop or break a for...of loop at anytime.
+
+```javascript
+
+const digits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+for (const digit of digits) {
+if (digit % 2 === 0) {
+    continue;
+}
+console.log(digit);
+}
+
+>>> 1 3 5 7 9
+
+```
+
+>- The "forEach" loop is another type of for loop in JavaScript. However, forEach() is actually an array method, so it can only be used exclusively with arrays. There is also no way to stop or break a forEach loop.
+
+
 
 ---
 
