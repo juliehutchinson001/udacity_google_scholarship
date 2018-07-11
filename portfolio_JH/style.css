@@ -181,7 +181,7 @@ main {
 
     /* dimensions */
     margin: 0px 163px;
-    padding: 15px 16px;
+    padding: 15px 16px 5px 16px;
 
     /* outline */
     border: 1px solid #ddd;
@@ -227,13 +227,11 @@ main {
 .proj-url {
 
     /* dimensions */
-    margin: 0px 163px;
-    padding: 5px 16px;
+    margin: 0px;
+    padding: 2px 0px 0px 5px;
 
     /* outline */
-    border-bottom: 1px solid #ddd;
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
+    border-top: 1px solid #ddd;
 
 }
 
@@ -243,7 +241,7 @@ main {
     color: #444;
 
     /* dimensions */
-    padding-top: 0.2em;
+    margin-top: 2px;
 
     /* typography */
     font-size: 1em;
