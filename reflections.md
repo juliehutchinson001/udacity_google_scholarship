@@ -839,6 +839,23 @@ console.log(digit);
 
 >- The "forEach" loop is another type of for loop in JavaScript. However, forEach() is actually an array method, so it can only be used exclusively with arrays. There is also no way to stop or break a forEach loop.
 
+## Spread Operator
+
+>- The spread operator, written with three consecutive dots ( ... ), gives you the ability to expand, or spread, iterable objects into multiple elements.
+
+```javascript
+
+const books = ["Don Quixote", "The Hobbit", "Alice in Wonderland", "Tale of Two Cities"];
+console.log(...books);
+
+>>> Don Quixote The Hobbit Alice in Wonderland Tale of Two Cities
+
+const primes = new Set([2, 3, 5, 7, 11, 13, 17, 19, 23, 29]);
+console.log(...primes);
+
+>>> 2 3 5 7 11 13 17 19 23 29
+
+```
 
 
 ---
