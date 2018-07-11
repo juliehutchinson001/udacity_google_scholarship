@@ -4,3 +4,7 @@ Enter a shell command to download https://tinyurl.com/zeyq9vc and save it as the
 
 Run this command on your own computer, too! You'll need to download this file for the next exercise.
 
+---
+
+curl -o dictionary.txt -L 'https://tinyurl.com/zeyq9vc'
+
