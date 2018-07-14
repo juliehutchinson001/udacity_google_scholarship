@@ -857,6 +857,22 @@ console.log(...primes);
 
 ```
 
+## Rest parameter
+
+>- The rest parameter, also written with three consecutive dots ( ... ), allows you to represent an indefinite number of elements as an array. One situation is when assigning the values of an array to variables. For example,
+
+```javascript
+const order = [20.17, 18.67, 1.50, "cheese", "eggs", "milk", "bread"];
+const [total, subtotal, tax, ...items] = order;
+console.log(total, subtotal, tax, items);
+
+>>> 20.17 18.67 1.5 ["cheese", "eggs", "milk", "bread"]
+
+```
+
+>- This code takes the values of the order array and assigns them to individual variables using destructuring. total, subtotal, and tax are assigned the first three values in the array, items is where you want to pay the most attention.
+>- By using the rest parameter, items is assigned the rest of the values in the array (as an array)
+
 
 ---
 
