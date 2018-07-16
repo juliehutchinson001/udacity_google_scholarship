@@ -180,7 +180,9 @@ main {
 .section-bottom {
 
     /* dimensions */
+    height: 466px;
     padding: 0px;
+
 
     /* layout */
     display: grid;
