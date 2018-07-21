@@ -7,7 +7,6 @@ body {
 
 .section-top {
 
-
     /* dimensions */
     padding: 0px;
 
@@ -410,3 +409,5 @@ footer {
     /* grid-column: 4 / 10; */
 /* } */
 /*  */
+
+/* *{outline:1px solid #fff!important;background-color:rgba(0,2,54,.1)!important} */
