@@ -1,5 +1,49 @@
-body {
-    background-color: red;
+.root {
+    display: flex;
+    height: 500px;
+    flex-wrap: wrap;
+    width: 100%;
+    border: solid black;
+    justify-content: space-around;
 }
 
+.game__main {
+    display: flex;
+    flex-wrap: wrap;
+    order: 1;
+    width: 69%;
+    border: solid grey;
+}
 
+.game-title {
+    order: 1;
+    width: 100%;
+    margin: 10px 50%;
+}
+
+.navigation {
+    border: solid red;
+    width: 29%;
+    height: 320px;
+    order: 2;
+}
+
+.interface {
+    border: solid blue;
+    width: 69%;
+    order: 3;
+}
+
+.game__tips {
+    order: 2;
+    width: 29%;
+    border: solid green;
+}
+
+.game__footer {
+    order: 4;
+    margin: 5% 0 5% 0;
+    height: 80px;
+    width: 100%;
+    border: solid coral;
+}
