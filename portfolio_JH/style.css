@@ -1,39 +1,65 @@
+body {
+    background-color: rgb(218, 225, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    background-color: #2C3755;
+    box-shadow: 0px 0px 8px 10px #1F2C4B; 
+    width: 80%;
+    height: 80%; 
+}
+
+.section {
+	height: auto;
+    padding: 100px 0;
+    width: 90%;
+}
+
 .section-top {
     align-items: center;
 	display: flex;
 	justify-content: center;
-	height: 205px;
-	padding: 92px 0;
+	height: 800px;
+	padding: 100px 0;
 }
 
 .container {
-	align-items: center;
-	height: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    margin: 0 auto 0 auto;
 	min-height: 200px;
 	min-width: 0;
 	max-width: 1000px;
 	position: relative;
-	width: 90%;
+    width: 90%;
 }
 
 .left-card {
+    align-self: flex-start;
 	font-family: 'Merienda', cursive;
 	height: 110px;
 	max-width: 550px;
-	position: relative;
-	width: auto;
-	z-index: 1;
+    position: relative;
+    top: -260px;
+	width: 350px;
 }
 
 .port-line {
-	background-color: #2E4066;
+	background-color: rgb(65, 91, 143);
 	height: 3px;
-	margin: 172px 0 52px 0; 
+	margin: 92px 0px 92px 0; 
 	width: 90px;
 }
 
 .port-header-title {
-    color: #748EDC;    
+	color: rgb(65, 91, 143);
+    line-height: 20px;
 }
 
 .port-header-subtitle {
@@ -41,13 +67,14 @@
 }
 
 .right-card {
-	bottom: 400px;
-	height: 700px;
-	left: 34px;
+    align-self: center;
+	bottom: 0px;
+	height: 600px;
+	left: 200px;
 	position: absolute;
 	right: 0px;
-	top: 30px;
-	width: 1000px;
+	top: -310px;
+	width: 800px;
 }
 
 .right-crd-img {
@@ -57,30 +84,31 @@
 }
 
 .back-header-img {
-	filter: hue-rotate(200deg) opacity(20%) grayscale(50%);
+	filter: hue-rotation(210deg) blur(90%) grayscale(70%);
 	height: 100%;
 	position: absolute;
 	width: 100%;
-	z-index: -1;
 }
 
 .navigation-port-menu {
-	bottom: 285px;
+    bottom: 365px;
+    left: 625px;
 	list-style: none;
 	padding-left: 40px;
 	margin-bottom: 10px;
 	position: absolute;
-	right: 180px;
-	top: 300px;
-	z-index: 1;
+    right: 100px;
+    text-align: left;
+	top: 80px;
 }
 
 .navigation-port-menu > li {
 	font-size: 12px;
 	letter-spacing: 2px;
-	margin-top: 30px;
-	text-align: right;
+    margin-top: 30px;
 }
+
+
 
 .navigation-port-menu > li a:hover {
     color: #748EDC;
@@ -88,10 +116,11 @@
 }
 
 li > a {
-	color: #1D2940;
-	font-weight: bolder;
+    color: #465B8B;
+    font-size: 12px;
+    font-weight: bolder; 
 	text-decoration: none;
-	text-transform: uppercase;
+    text-transform: uppercase;
 
 }
 
