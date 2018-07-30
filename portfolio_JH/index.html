@@ -13,35 +13,135 @@
 
     <body id="portfolio">
         <div class="wrapper">
-            <section class="section section-top">
-                <div class="container">
-                <header class="left-card">
+
+            <header id="header" class="top-nav">
                     
-                    <div class="port-line"></div>
-                    <h1 class="port-header-title">Julie Hutchinson's Portfolio</h1>
-                    <h1 class="port-header-subtitle">Front-end Developer</h1>
+                <a href="index.html" class="logo"><strong>By</strong>
                     
-                </header>
-                <aside class="right-card">
+                </a>
+                <nav>
+                    <a href="#menu">Menu</a>
+                </nav>
+            
+            </header>
+
+            <nav id="menu">
+                <ul class="links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#biography">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="photography.html">Photograpy</a></li>
+                    <li><a href="#footer">Contact</a></li>
+                </ul>
+            </nav>
+
+            <section class="top-section" >
+
+                <div class="image filtered" data-position="center">
+                </div>
+                <div class="content entrance">
                     
-                    <div class="right-crd-img">
-                        <img class="back-header-img" src="https://github.com/juliehutchinson001/udacity_google_scholarship/blob/master/portfolio_JH/images/Julie.jpg?raw=true" alt="behind-logo">
+                    <img class="back-header-img" src="https://avatars0.githubusercontent.com/u/30702296?s=460&amp;v=4" alt="behind-logo">
+                    
+                    <div>
+                        <h1 class="port-header-title">Julie Hutchinson's Portfolio</h1>
+                        <h2 class="port-header-subtitle">Front-end Developer</h2>
                     </div>
                     
-                    <ul class="navigation-port-menu">
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">Photograpy</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                    
-                </aside>
                 </div>
             </section>
 
-            <main class="section section-mid">
+            <section class="main">
+                
+                <h2 id="biography">About Me</h2>
+                
+                <p class="biography-content">Julie is a front-end developer that is familiar 
+                in in front-end and back-end development
+                She is a current student in the Udacity front-end
+                nanodegree interested in finding an entry level
+                position as a web or UI developer. She has worked
+                with Javascript, CSS3, HTML5, ES6, jQuery, MERN 
+                stack, Sass and Python.</p>
+                
+                <p class="biography-content">Julie's greatest interests from the moment she 
+                inquired into web development are focused on semantic 
+                application of design and proper layout of websites. 
+                In her free time she designs code snippets to test
+                her CSS/HTML abilities and expand them. </p>
+                
+                <p class="biography-content">Previous to becoming a student of Udacity, she 
+                graduated as a BS Electronics Engineer. She 
+                discovered her true passion for coding by building 
+                an autonomous robot and programming it as well as 
+                programming a robotic arm for her thesis.</p>
 
+            </section>
+
+            <main class="section section-mid">
+                
+                <h2 id="header-projects">Projects</h2>
+                <!-- <p>I hope you enjoy my work</p> -->
+                
+                <div class="project-wrapper">
+                    
+                    <div class="projects">
+                        
+                        <article>
+                            <a href="https://github.com/juliehutchinson001/blogz">
+                                <img class="proj-image" src="https://github.com/juliehutchinson001/blogz/raw/master/blogz_main1.png" alt="Blogz Portrait"/>
+                            </a>
+                            <div class="content">
+                                <h3 class="proj-name">Blogz <span class="status"></span></h3>
+                                <p>Blog site built using CSS, Javascript, Python
+                                /Flask as the server and MYSQL for the database.</p>
+                                <p>Features: Password hashing, Username</p>
+                            </div>
+                        </article>
+                        
+                        <article>
+                            <a href="https://github.com/juliehutchinson001/Tweet-Generator" >
+                                <img class="proj-image" src="https://render.fineartamerica.com/images/rendered/search/print/images/artworkimages/medium/1/sherlock-holmes-greg-joens.jpg" alt="project-two" />
+                            </a>
+                            <div class="description">
+                                <h3 class="proj-name">Random Sentence Generator <span class="status"></span></h3>
+                                <p>Randomly generate words from a dictionary. 
+                                    Sample words from a Markov grammar model. 
+                                    Collect a corpus and analyze word frequency 
+                                    to text processing natural (human) language 
+                                    and develop a random sentence.</p>
+                            </div>
+                        </article>
+                        
+                        <article>
+                            <a href="#" >
+                                <img class="proj-image" src="https://luna1.co/167d77.png" alt="project-three" />
+                            </a>
+                            <div class="description">
+                                <h3 class="proj-name">Asana's API Feature<span class="status"></span></h3>
+                                <p>This is a feature built for a take home project 
+                                    utilizing asana API. It was developed with Javascript, 
+                                    CRUD model and Sass</p>
+                            </div>
+                        </article>
+
+                    </div>
+                
+                </div>
+            
             </main>
+
+            <footer id="footer">
+                <ul class="contact-icons">
+                    <li><a href="#" class="icon fa-twitter"><span class="contact-label">Twitter</span></a></li>
+                    <li><a href="#" class="icon fa-linkedin"><span class="contact-label">LinkedIn</span></a></li>
+                    <li><a href="#" class="icon fa-github"><span class="contact-label">GitHub</span></a></li>
+                </ul>
+            </footer>
+        
         </div>
+
+        <script src="js/app.js"></script>        
+    
     </body>
+
 </html>
