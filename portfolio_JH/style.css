@@ -10,11 +10,7 @@
     
     margin: 0;
     padding: 0;
-	/* vertical-align: baseline; */
-}
 
-*, *:before, *:after {
-    box-sizing: inherit;
 }
 
 :root {
@@ -47,34 +43,30 @@ html {
     color: var(--font_color);
     
     
-    padding: 10rem 20rem;
-    line-height: 2;
-    
-}
-/* 
-#portfolio:after {
+    height: 100%;
+    /* padding: 20rem 10rem; */
+    width: 100%;
     
     
-    content: '';
-    display: block;
+    align-items: center;
+    display: flex;
+    justify-content: center;
     left: 0;
-    opacity: 0;
-    pointer-events: none;
+    line-height: 2;
     position: fixed;
     top: 0;
-    
-    height: 100%;
-    width: 100%;
     z-index: -1;
-} */
+    
+}
 
-#wrapper {
+.wrapper {
     width: 80%;
     margin: 0 auto;
     background-color: var(--light_grey);
     border-radius: 0.325rem;
 }
 
+/* 
 ul {
     list-style: none;
 }
@@ -175,7 +167,7 @@ h3 {
 	display: block;
 }
 
-.image.filtered:after {
+.image.filtered {
     background-attachment: scroll;
     background-image: linear-gradient(to right bottom, rgba(101, 101, 101, 0.8), rgba(58, 58, 58, 0.8)) , url("https://cdn.magdeleine.co/wp-content/uploads/2018/06/black-and-white-daylight-environment-1088144-1400x933.jpg");
     background-position: top left;
@@ -443,35 +435,9 @@ section.main {
     width: 4rem;
 }
 
-#header nav a[href="#menu"]:before, #header nav a[href="#menu"]:after {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 1.75rem;
-    content: '';
-    display: block;
-    height: inherit;
-    left: 0;
-    position: absolute;
-    top: 0;
-    transition: opacity 0.2s ease-in-out;
-    width: inherit;
-}
 
-#header nav a[href="#menu"]:before {
-    opacity: 1;
-}
 
-#header nav a[href="#menu"]:after {
-    opacity: 0;
-}
 
-#header nav a[href="#menu"]:hover:before {
-    opacity: 0;
-}
-
-#header nav a[href="#menu"]:hover:after {
-    opacity: 1;
-}
 
 .top-section {
     background-color: var(--dark_grey);
@@ -520,7 +486,7 @@ section.main {
     border-radius: 0.325rem;
     margin: 0 auto;
     max-width: 100%;
-    /* padding: 3.5rem 2rem 1.5rem 2rem ; */
+    **** padding: 3.5rem 2rem 1.5rem 2rem ; *
     position: relative;
     text-align: center;
     transition: opacity 1s ease-in-out, transform 1s ease-in-out;
@@ -581,7 +547,7 @@ div.content.entrance {
 #footer .icons a {
     color: inherit;
 }
-
+ */
 
 
 @media screen and (max-width: 1680px) {
