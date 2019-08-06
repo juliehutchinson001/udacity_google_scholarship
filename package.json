@@ -1,0 +1,23 @@
+{
+  "name": "udacity_directory",
+  "version": "1.0.0",
+  "description": "udacity notes from scholarship",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliehutchinson001/udacity_google_scholarship.git"
+  },
+  "author": "Julie Hutchinson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliehutchinson001/udacity_google_scholarship/issues"
+  },
+  "homepage": "https://github.com/juliehutchinson001/udacity_google_scholarship#readme",
+  "dependencies": {
+    "npm": "^6.2.0",
+    "simple-debug.css": "^1.0.1"
+  }
+}

@@ -4,7 +4,9 @@
 */*.vscode
 *.vscode
 
-*/web-dev-blog/web-dev-blog.png
+
+**/node_modules/
+**/web-dev-blog/web-dev-blog.png
 web-dev-blog/web-dev-blog.png
 
 **/*.png
