@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/juliehutchinson001/udacity_google_scholarship#readme",
   "dependencies": {
-    "npm": "^6.2.0",
+    "npm": "^6.13.4",
     "simple-debug.css": "^1.0.1"
   }
 }
